@@ -65,6 +65,63 @@
     p.mb-3 En el rango intercuartil = Q3-Q1 está el 50% de los datos
     p.mb-3 Por debajo del valor mínimo y por encima del máximo están los valores atípicos o en inglés <i>outliers</i> 
         
+    .row.mb-5.md-5
+      .col-md-6.mb-5.mb-md-0
+        .titulo-sexto.color-acento-contenido.mt-5
+            p.mb-0 
+              p.mb-1 <b>Figura 4.</b>Muestra un gráfico de cajas y bigotes para la edad de las personas que reciben préstamo
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/T3/img-6.png', alt='Texto que describa la imagen')
+
+          .tarjeta.faf.p-3(x="8%" y="50%" numero="1")
+            p.texto-blanco Muestra el número 18. La edad mínima de las personas que reciben 
+
+          .tarjeta.faf.p-3(x="27%" y="63%" numero="2")
+            p.texto-blanco Cuartil 1 (Q1 = 31) debajo de ese valor está el 25% de la edad de las personas que reciben préstamo.
+
+          .tarjeta.faf.p-3(x="45%" y="13%" numero="3")
+            p.texto-blanco Cuartil 2 (Q2 = 45). La mediana debajo de ese valor está el 50% de la edad de las personas que reciben préstamo.
+
+          .tarjeta.faf.p-3(x="60%" y="63%" numero="4")
+            p.texto-blanco Cuartil 3 (Q3 = 57). Debajo de ese valor está el 75% de edad de las personas que reciben préstamo.
+
+          .tarjeta.faf.p-3(x="91%" y="50%" numero="5")
+            p.texto-blanco Muestra el número 84. La edad máxima de las personas que reciben préstamo.
+
+
+
+
+      .col-md-6
+        .titulo-sexto.color-acento-contenido.mt-5
+          p.mb-0 
+            p.mb-1 <b>Figura 5.</b>Gráfico de cajas ybigotes estrato vs edad de las personas que reciben crédito.
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/T3/img-7.png', alt='Texto que describa la imagen')
+
+          .tarjeta.faf.p-3(x="24%" y="30%" numero="1")
+            p.texto-blanco <b>Estrato 0</b>, 50% tiene la Edad entre 32 y 50.75 años.
+
+          .tarjeta.faf.p-3(x="33%" y="77%" numero="2")
+            p.texto-blanco <b>Estrato 1</b>, 50% tiene la Edad entre 27 y 51 años.
+
+          .tarjeta.faf.p-3(x="43%" y="19%" numero="3")
+            p.texto-blanco <b>Estrato 2</b>, 50% tiene la Edad entre 30 y 54 años.
+
+          .tarjeta.faf.p-3(x="52%" y="77%" numero="4")
+            p.texto-blanco <b>Estrato 3</b>, 50% tiene la Edad entre 35 y 63 años.
+
+          .tarjeta.faf.p-3(x="62%" y="25%" numero="5")
+            p.texto-blanco <b>Estrato 4</b>, 50% tiene la Edad entre 28 y 54 años.
+
+          .tarjeta.faf.p-3(x="71%" y="75%" numero="6")
+            p.texto-blanco <b>Estrato 5</b>, 50% tiene la Edad entre 27 y 46.5 años.
+
+          .tarjeta.faf.p-3(x="80%" y="45%" numero="7")
+            p.texto-blanco <b>Estrato 6</b>, *Solo 2 personas Edad 24 y 49 años respectivamente.
 
 </template>
 
