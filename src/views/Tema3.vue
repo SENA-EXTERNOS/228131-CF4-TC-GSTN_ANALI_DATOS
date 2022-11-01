@@ -46,7 +46,7 @@
     .row.mb-5.md-5
       .col-md-6.mb-5.mb-md-0
         .titulo-sexto.color-acento-contenido.mt-5
-          p.mb-0 
+          p.mb-4 
             p.mb-1 <b>Figura 2</b>  Muestra un gráfico Circular género Vs. monto del préstamo.
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T3/img-4.png', alt='')

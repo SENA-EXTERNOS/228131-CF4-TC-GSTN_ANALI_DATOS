@@ -166,33 +166,33 @@
     p.mb-4 Para comprender fácilmente el video, específicamente el manejo de Google Colab y el documento <i>jupyter</i>, Notebook con extensión <i>ipynb</i>, se recomienda descargar los 3 archivos adjuntos.
 
     .row.mb-5
-      .col-2.offset-1
-        .tarjeta.faf.p-2
+      .col-2.offset-2
+        .tarjeta.faf.p-3
           .row.justify-content-around.align-items-center
             .col.mb-3.mb-sm-0
               img(src="@/assets/curso/temas/T4/img-10.svg")
-              p.texto-blanco Lo invitamos a leer y comprende
+              p.texto-blanco Manejo de Google Colab.pdf
         a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
 
 
       .col-2.offset-1
-        .tarjeta.faf.p-2
+        .tarjeta.faf.p-3
           .row.justify-content-around.align-items-center
             .col.mb-3.mb-sm-0
               img(src="@/assets/curso/temas/T4/img-11.svg")
-              p.texto-blanco Lo invitamos a leer y comprende
+              p.texto-blanco Créditos de consumo otorgados.csv
         a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
             
       .col-2.offset-1
-        .tarjeta.faf.p-2
+        .tarjeta.faf.p-3
           .row.justify-content-around.align-items-center
             .col.mb-3.mb-sm-0
               img(src="@/assets/curso/temas/T4/img-12.svg")
-              p.texto-blanco Lo invitamos a leer y comprende
+              p.texto-blanco Gráficos Plotly video.ipynb
         a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
@@ -328,7 +328,6 @@
             figure
               img(src='@/assets/curso/temas/T4/img-19.png', alt='Texto que describa la imagen')
               figcaption Nota: Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'.
-
 
 </template>
 

@@ -11,6 +11,10 @@
 
     .row.justify-content-center
       .col-lg-10.mb-5
+        .titulo-sexto.color-acento-contenido.mt-5
+          p.mb-0 
+            p.mb-0 <b>Figura 15.</b>
+            p.mb-0 <i>Síntesis del componente formativo</i>>
         figure
           img(src="@/assets/curso/temas/sintesis.png", alt="alt")
       .col-auto
