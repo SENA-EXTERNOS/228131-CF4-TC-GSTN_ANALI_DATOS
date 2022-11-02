@@ -165,11 +165,11 @@
 
     p.mb-4 Para comprender fácilmente el video, específicamente el manejo de Google Colab y el documento <i>jupyter</i>, Notebook con extensión <i>ipynb</i>, se recomienda descargar los 3 archivos adjuntos.
 
-    .row.mx-5.d-flex.justify-content-between.align-items-center.mb-5
-      .col-3.alto-fijo
-        .tarjeta.faf.p-5
+    .row.justify-content-around.mb-5
+      .col-md-2.col-sm-4.h240
+        .tarjeta.faf.p-5.mb-3
           .row.justify-content-around.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-240
               img(src="@/assets/curso/temas/T4/img-10.svg")
               p.texto-blanco Manejo de Google Colab.pdf
         a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
@@ -177,20 +177,20 @@
           i.fas.fa-file-download
 
 
-      .col-3.alto-fijo
+      .col-md-2.col-sm-4.h240
         .tarjeta.faf.p-5
           .row.justify-content-around.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-240
               img(src="@/assets/curso/temas/T4/img-11.svg")
               p.texto-blanco Créditos de consumo otorgados.csv
         a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
             
-      .col-3.alto-fijo
+      .col-md-2.col-sm-4.h220
         .tarjeta.faf.p-5
           .row.justify-content-around.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-3.mb-sm-240
               img(src="@/assets/curso/temas/T4/img-12.svg")
               p.texto-blanco Gráficos Plotly video.ipynb
         a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
