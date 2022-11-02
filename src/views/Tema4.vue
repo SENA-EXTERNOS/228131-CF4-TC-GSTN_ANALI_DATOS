@@ -187,7 +187,7 @@
           span Descargar
           i.fas.fa-file-download
             
-      .col-md-2.col-sm-4.h220
+      .col-md-2.col-sm-4.h240
         .tarjeta.faf.p-5
           .row.justify-content-around.align-items-center
             .col.mb-3.mb-sm-240
