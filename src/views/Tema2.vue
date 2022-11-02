@@ -23,8 +23,8 @@
         p.mb-0 
           p.mb-1 <b>Tabla 1</b> Tabla de datos en las columnas las variables vs observaciones en las filas
 
-      .tabla-a.color-acento-botones.mb-5 
-        table
+      .tabla-a.color-acento-contenido.mb-5 
+        table.tabla1
           caption Nota.  Muestra en las filas las observaciones y en las columnas las variables. 
           thead
             tr
@@ -337,13 +337,13 @@
         p.mb-3 Este conjunto de datos se quiere agrupar en forma de intervalo.
         p.mb-3 Primero se extraerá el valor menor y el mayor. En este caso la estimación mínima es 2 y la máxima es 10, se calcula el tamaño del intervalo, posteriormente se mira cuantos datos caen en ese intervalo, generalmente no se trabajan con más de 10, se puede buscar que la longitud o amplitud del intervalo sea un numero entero, aunque no es estricto, podría ser decimal.
        
-    TabsC.color-primario
-      .py-3.py-md-4(titulo="Amplitud")
+    TabsC.color-acento-contenido
+      .py-3.py-md-4.texto-titulo(titulo="Amplitud")
         .row
           .col-md-12.mb-4.mb-md-0
             h4 Amplitud
             p.mb-3 Para calcular la amplitud o longitud del intervalo se utiliza la siguiente fórmula:
-          .row.justify-content-around.align-items-center.mb-3
+          .row.justify-content-around.align-items-center.mb-4
             .col-8
               img(src='@/assets/curso/temas/T2/img-16.png', alt='Texto que describa la imagen')
             p.mb-3 Suponiendo que se quieren 4 clases por lo tanto el número de clases = 4

@@ -165,9 +165,9 @@
 
     p.mb-4 Para comprender fácilmente el video, específicamente el manejo de Google Colab y el documento <i>jupyter</i>, Notebook con extensión <i>ipynb</i>, se recomienda descargar los 3 archivos adjuntos.
 
-    .row.mb-5
-      .col-2.offset-2
-        .tarjeta.faf.p-3
+    .row.mx-5.d-flex.justify-content-between.align-items-center.mb-5
+      .col-3.alto-fijo
+        .tarjeta.faf.p-5
           .row.justify-content-around.align-items-center
             .col.mb-3.mb-sm-0
               img(src="@/assets/curso/temas/T4/img-10.svg")
@@ -177,8 +177,8 @@
           i.fas.fa-file-download
 
 
-      .col-2.offset-1
-        .tarjeta.faf.p-3
+      .col-3.alto-fijo
+        .tarjeta.faf.p-5
           .row.justify-content-around.align-items-center
             .col.mb-3.mb-sm-0
               img(src="@/assets/curso/temas/T4/img-11.svg")
@@ -187,8 +187,8 @@
           span Descargar
           i.fas.fa-file-download
             
-      .col-2.offset-1
-        .tarjeta.faf.p-3
+      .col-3.alto-fijo
+        .tarjeta.faf.p-5
           .row.justify-content-around.align-items-center
             .col.mb-3.mb-sm-0
               img(src="@/assets/curso/temas/T4/img-12.svg")
