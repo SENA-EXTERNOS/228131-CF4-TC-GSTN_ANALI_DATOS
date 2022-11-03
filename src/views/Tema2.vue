@@ -21,7 +21,7 @@
 
       .titulo-sexto.color-acento-contenido
         p.mb-0 
-          p.mb-1 <b>Tabla 1</b> Tabla de datos en las columnas las variables vs observaciones en las filas
+          p.mb-1 <b>Tabla 1</b> <i>Tabla de datos en las columnas las variables vs observaciones en las filas</i>
 
       .tabla-a.color-acento-contenido.mb-5 
         table.tabla1
@@ -194,10 +194,10 @@
           
       .titulo-sexto.color-acento-contenido.mt-5
         p.mb-0 
-          p.mb-1 <b>Tabla 2</b> Año Vs. Frecuencia absoluta de beneficiarios del crédito de consumo
+          p.mb-1 <b>Tabla 2</b><i> Año Vs. Frecuencia absoluta de beneficiarios del crédito de consumo</i>
 
-      .tabla-a.color-acento-botones.mb-5 
-        table
+      .tabla-a.color-acento-contenido.mb-5 
+        table.tabla1
           caption Nota. Muestra año Vs. Número de beneficiarios del crédito de consumo.  
           thead
             tr
@@ -244,10 +244,10 @@
 
       .titulo-sexto.color-acento-contenido.mt-5
         p.mb-0 
-          p.mb-1 <b>Tabla 3</b> Año vs frecuencia absoluta relativa de beneficiarios del crédito de consumo
+          p.mb-1 <b>Tabla 3</b> <i>Año vs frecuencia absoluta relativa de beneficiarios del crédito de consumo</i>
 
-      .tabla-a.color-acento-botones.mb-5 
-        table
+      .tabla-a.color-acento-contenido.mb-5 
+        table.tabla1
           caption Nota. Muestra año vs frecuencia absoluta relativa y porcentual de beneficiarios del crédito de consumo. 
           thead
             tr
@@ -305,26 +305,26 @@
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
         h4.mb-0 Intervalo Vs Frecuencia
-      table
+      table.tabla1
         caption Nota.: muestra intervalos vs frecuencia absoluta. 
         tr
           th.h4.fae Intervalo
           th.h4.fae Frecuencia
         tr
-          td.h5 [0,2)
-          td.h5 2
+          td [0,2)
+          td 2
         tr
-          td.h5 [2,4)
-          td.h5 3
+          td [2,4)
+          td 3
         tr
-          td.h5 [4,6)
-          td.h5 4
+          td [4,6)
+          td 4
         tr
-          td.h5 [6,8)
-          td.h5 5
+          td [6,8)
+          td 5
         tr
-          td.h5 [8,10)
-          td.h5 3
+          td [8,10)
+          td 3
 
     .row.mb-5.mt-5
       .col-md-4.mb-5.mb-md-0
@@ -344,7 +344,7 @@
             h4 Amplitud
             p.mb-3 Para calcular la amplitud o longitud del intervalo se utiliza la siguiente fórmula:
           .row.justify-content-around.align-items-center.mb-4
-            .col-8
+            .col-8.mb-4
               img(src='@/assets/curso/temas/T2/img-16.png', alt='Texto que describa la imagen')
             p.mb-3 Suponiendo que se quieren 4 clases por lo tanto el número de clases = 4
             p.mb-3 Valor máximo es 10, por lo tanto, el máximo = 10
@@ -362,7 +362,7 @@
             p.mb-3 La suma de las frecuencias debe ser igual al número total de notas en este caso 12
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Tabla 5</b> Intervalo Vs Frecuencia notas
+                p.mb-1 <b>Tabla 5</b> <i>Intervalo Vs Frecuencia notas</i>
           .row.justify-content-around.align-items-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/T2/img-17.png', alt='Texto que describa la imagen')
@@ -381,6 +381,7 @@
               li 
                 i.fas.fa-angle-right.color-acento-contenido
                 | Se examina que el cuarto intervalo [8,10] tiene una frecuencia de 5 que son los datos: 8, 9, 9 ,9, 10
+            
         
       .py-3.py-md-4(titulo="Promedio")
         .row
