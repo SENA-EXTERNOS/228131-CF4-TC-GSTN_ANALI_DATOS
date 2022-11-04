@@ -23,8 +23,8 @@
           img(data-aos='fade-right')(src='@/assets/curso/temas/T4/img-2.png', alt='')
 
       .col-md-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="fac")
-          .row(titulo="Planteamiento del problema")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fac")
+          .row.justify-content-around.align-items-center(titulo="Planteamiento del problema")
             .col-md-10.mb-4.mb-md-0
               p.mb-3 Se explica lo que se quiere resolver o investigar.
 
@@ -53,7 +53,6 @@
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.fag.p-4(titulo="Informe estadístico")
-        h4 Informe estadístico: 
         
         .row
           .col-xl-8
@@ -63,7 +62,6 @@
               img(src='@/assets/curso/temas/T4/img-3.png', alt='Texto que describa la imagen')
 
       .tarjeta.fag.p-4(titulo="Objetivo general")
-        h4 Objetivo general:
 
         .row
           .col-xl-8
@@ -74,7 +72,6 @@
            
 
       .tarjeta.fag.p-4(titulo="Objetivos específicos")
-        h4 Objetivos específicos:
         
         .row
           .col-xl-8
@@ -85,7 +82,6 @@
               img(src='@/assets/curso/temas/T4/img-5.png', alt='Texto que describa la imagen')
 
       .tarjeta.fag.p-4(titulo="Metodología")
-        h4 Metodología:
         
         .row
           .col-xl-8
@@ -95,7 +91,6 @@
               img(src='@/assets/curso/temas/T4/img-6.png', alt='Texto que describa la imagen')
 
       .tarjeta.fag.p-4(titulo="Resultados y análisis")
-        h4 Resultados y análisis:
         
         .row
           .col-xl-8
@@ -115,7 +110,6 @@
               img(src='@/assets/curso/temas/T4/img-7.png', alt='Texto que describa la imagen')
 
       .tarjeta.fag.p-4(titulo="Conclusiones")
-        h4 Conclusiones:
         
         .row
           .col-xl-8
@@ -218,7 +212,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 6.</b>Pantalla de inicio de Google Colab.
+                p.mb-1 <b>Figura 6.</b><i>Pantalla de inicio de Google Colab.</i>
             figure
               img(src='@/assets/curso/temas/T4/img-14.png', alt='Texto que describa la imagen')
           
@@ -242,7 +236,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 7.</b>Importar la librería math y utiliza la función potencia: pow()
+                p.mb-1 <b>Figura 7.</b><i>Importar la librería math y utiliza la función potencia: pow()</i>
             figure
               img(src='@/assets/curso/temas/T4/img-15.png', alt='Texto que describa la imagen')
 
@@ -258,7 +252,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 8.</b>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()
+                p.mb-1 <b>Figura 8.</b><i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
 
@@ -278,7 +272,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 8.</b>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()
+                p.mb-1 <b>Figura 8.</b><i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
           
@@ -293,7 +287,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 9.</b>Contenido de las primeras y últimas 5 filas del <i>data frame</i>.
+                p.mb-1 <b>Figura 9.</b><i>Contenido de las primeras y últimas 5 filas del data frame</i>.
             figure
               img(src='@/assets/curso/temas/T4/img-17.png', alt='Texto que describa la imagen')
               figcaption Nota: muestra el contenido de las primeras y últimas 5 filas del data frame.
@@ -309,7 +303,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 10.</b>Muestra la dimensión y el nombre de las columnas del data frame
+                p.mb-1 <b>Figura 10.</b><i>Muestra la dimensión y el nombre de las columnas del data frame</i>
             figure
               img(src='@/assets/curso/temas/T4/img-18.png', alt='Texto que describa la imagen')
               figcaption Nota: muestra la dimensión y el nombre de las columnas del data frame
@@ -324,7 +318,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 11.</b>Información sobre los estadísticos descriptivos de la columna con nombre <i>'total_rooms'</i>.
+                p.mb-1 <b>Figura 11.</b><i>Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'</i>.
             figure
               img(src='@/assets/curso/temas/T4/img-19.png', alt='Texto que describa la imagen')
               figcaption Nota: Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'.

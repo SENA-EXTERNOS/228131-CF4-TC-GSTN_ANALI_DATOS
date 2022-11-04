@@ -299,7 +299,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5
       p.mb-0 
-        p.mb-1 <b>Tabla 4</b> Muestra intervalos vs frecuencia absoluta
+        p.mb-1 <b>Tabla 4</b><i> Muestra intervalos vs frecuencia absoluta</i>
 
 
     .tabla-b.color-acento-contenido.mb-5

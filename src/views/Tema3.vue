@@ -33,7 +33,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5
       p.mb-0 
-        p.mb-1 <b>Figura 1</b>  Muestra un histograma cantidad de hombres vs. cantidad de mujeres.
+        p.mb-1 <b>Figura 1</b> <i>Muestra un histograma cantidad de hombres vs. cantidad de mujeres.</i>
 
 
     .row.justify-content-around.align-items-center.mb-3
@@ -47,14 +47,14 @@
       .col-md-6.mb-5.mb-md-0
         .titulo-sexto.color-acento-contenido.mt-5
           p.mb-4 
-            p.mb-1 <b>Figura 2</b>  Muestra un gráfico Circular género Vs. monto del préstamo.
+            p.mb-1 <b>Figura 2</b><i>Muestra un gráfico Circular género Vs. monto del préstamo.</i>
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T3/img-4.png', alt='')
 
       .col-md-6
         .titulo-sexto.color-acento-contenido.mt-5
           p.mb-0 
-            p.mb-0 <b>Figura 3</b> Muestra un gráfico Circular el porcentaje por estratos los cuales reciben el monto del préstamo.
+            p.mb-0 <b>Figura 3</b><i>Muestra un gráfico Circular el porcentaje por estratos los cuales reciben el monto del préstamo.</i>
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T3/img-5.png', alt='')
 
@@ -69,7 +69,7 @@
       .col-md-6.mb-5.mb-md-0
         .titulo-sexto.color-acento-contenido.mt-5
             p.mb-0 
-              p.mb-1 <b>Figura 4.</b>Muestra un gráfico de cajas y bigotes para la edad de las personas que reciben préstamo
+              p.mb-1 <b>Figura 4.</b><i>Muestra un gráfico de cajas y bigotes para la edad de las personas que reciben préstamo</i>
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -96,7 +96,7 @@
       .col-md-6
         .titulo-sexto.color-acento-contenido.mt-5
           p.mb-0 
-            p.mb-1 <b>Figura 5.</b>Gráfico de cajas ybigotes estrato vs edad de las personas que reciben crédito.
+            p.mb-1 <b>Figura 5.</b><i>Gráfico de cajas ybigotes estrato vs edad de las personas que reciben crédito.</i>
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure

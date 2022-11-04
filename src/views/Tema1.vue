@@ -131,7 +131,7 @@
           img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-16.png', alt='')
 
       .col-md-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="fac")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fac")
           .row(titulo="Se ordena de menor a mayor ")
             .col-md-10.mb-4.mb-md-0
               p.mb-3 3, 3, 4, 5, 6 es impar N=5
