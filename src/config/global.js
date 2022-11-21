@@ -124,7 +124,7 @@ export default {
       referencia:
         'TOOMEY, D. (2017) Your One-stop Guide to Building an Efficient Data Science Pipeline Using Jupyter. Birmingham: Packt Publishing. ',
       tipo: '',
-      descarga: 
+      link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1637911&lang=es&site=ehost-live',
     },
     {
@@ -132,7 +132,7 @@ export default {
       referencia:
         'TOOMEY, D. (2018). Explore Interactive Computing Using Python. 2nd Edition. ',
       tipo: '',
-      descarga:
+      link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1881491&lang=es&site=ehost-live',
     },
     {
@@ -140,8 +140,7 @@ export default {
       referencia:
         'Triola, M. (2018). Estadística (Vol. 12 edición). Mexico: Pearson. ',
       tipo: 'Libro digital',
-      descarga:
-        'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7386&pg=149',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7386&pg=149',
     },
   ],
   glosario: [
