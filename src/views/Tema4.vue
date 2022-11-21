@@ -212,7 +212,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 6.</b><i>Pantalla de inicio de Google Colab.</i>
+                p.mb-1 <b>Figura 9.</b><i>Pantalla de inicio de Google Colab.</i>
             figure
               img(src='@/assets/curso/temas/T4/img-14.png', alt='Texto que describa la imagen')
           
@@ -236,7 +236,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 7.</b><i>Importar la librería math y utiliza la función potencia: pow()</i>
+                p.mb-1 <b>Figura 10.</b><i>Importar la librería math y utiliza la función potencia: pow()</i>
             figure
               img(src='@/assets/curso/temas/T4/img-15.png', alt='Texto que describa la imagen')
 
@@ -252,7 +252,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 8.</b><i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
+                p.mb-1 <b>Figura 11.</b><i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
 
@@ -272,7 +272,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 8.</b><i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
+                p.mb-1 <b>Figura 11.</b><i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
           
@@ -287,7 +287,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 9.</b><i>Contenido de las primeras y últimas 5 filas del data frame</i>.
+                p.mb-1 <b>Figura 12.</b><i>Contenido de las primeras y últimas 5 filas del data frame</i>.
             figure
               img(src='@/assets/curso/temas/T4/img-17.png', alt='Texto que describa la imagen')
               figcaption Nota: muestra el contenido de las primeras y últimas 5 filas del data frame.
@@ -303,7 +303,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 10.</b><i>Muestra la dimensión y el nombre de las columnas del data frame</i>
+                p.mb-1 <b>Figura 13.</b><i>Muestra la dimensión y el nombre de las columnas del data frame</i>
             figure
               img(src='@/assets/curso/temas/T4/img-18.png', alt='Texto que describa la imagen')
               figcaption Nota: muestra la dimensión y el nombre de las columnas del data frame
@@ -318,7 +318,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido.mt-5
               p.mb-0 
-                p.mb-1 <b>Figura 11.</b><i>Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'</i>.
+                p.mb-1 <b>Figura 14.</b><i>Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'</i>.
             figure
               img(src='@/assets/curso/temas/T4/img-19.png', alt='Texto que describa la imagen')
               figcaption Nota: Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'.

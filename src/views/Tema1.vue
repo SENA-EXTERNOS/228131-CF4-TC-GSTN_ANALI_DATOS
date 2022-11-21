@@ -69,7 +69,7 @@
             .row.mb-3
               .col-5
                 img(src='@/assets/curso/temas/T1/img-8.png', alt='Texto que describa la imagen')
-            p.mb-3 Se emplea cuando la variable viene expresada en unidades que son el cociente de dos magnitudes simples. <b>Ejemplo:</b> para el cálculo del promedio de velocidad que se define como distancia sobre tiempo.
+            p.mb-3 Se emplea cuando la variable viene expresada en unidades que son el cociente de dos magnitudes simples. Ejemplo: para el cálculo del promedio de velocidad que se define como distancia sobre tiempo.
         
           .col-md-6
             figure

@@ -36,12 +36,12 @@
               th.tabla-b__header Estrato
           tbody
             tr
-              td 1
-              td 45
-              td masculino
-              td si
-              td independiente
-              td 1.0
+              td.color-fila 1
+              td.color-fila 45
+              td.color-fila masculino
+              td.color-fila si
+              td.color-fila independiente
+              td.color-fila 1.0
             tr
               td 2
               td 45
@@ -50,12 +50,12 @@
               td otro
               td 3.0
             tr
-              td 3
-              td 28
-              td femenino
-              td no
-              td otro
-              td 3.0
+              td.color-fila 3
+              td.color-fila 28
+              td.color-fila femenino
+              td.color-fila no
+              td.color-fila otro
+              td.color-fila 3.0
 
             tr
               td 4
@@ -65,12 +65,12 @@
               td emprendedor
               td 3.0
             tr
-              td 5
-              td 36
-              td femenino
-              td no
-              td independiente
-              td 2.0
+              td.color-fila 5
+              td.color-fila 36
+              td.color-fila femenino
+              td.color-fila no
+              td.color-fila independiente
+              td.color-fila 2.0
             
 
 
@@ -209,14 +209,14 @@
               td 2017
               td 1921
             tr
-              td 2018
-              td 8765
+              td.color-fila 2018
+              td.color-fila 8765
             tr
               td 2019
               td 1466
             tr
-              td Total
-              td 12152
+              td.color-fila Total
+              td.color-fila 12152
             
 
 
