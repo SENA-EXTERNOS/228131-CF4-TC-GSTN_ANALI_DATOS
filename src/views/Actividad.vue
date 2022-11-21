@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Falso / Verdadero
+          h2 Estadística descriptiva, gráficas e informe estadísticos
         p.mb-4 Durante el transcurso de este componente formativo se afianzó el concepto de estadística descriptiva, disciplina responsable de recopilar, almacenar, organizar, tabular o graficar y calcular los parámetros básicos de los conjuntos de datos. Por ello, el propósito de la siguiente actividad es poner a prueba el nivel de conocimientos y aprendizajes obtenidos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Estadística descriptiva
       
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
@@ -95,7 +95,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-11.svg', alt='Texto que describa la imagen')
               figcaption Donde k es el número del cuartil K=1, 2, 3 N = es el número de datos
 
 
@@ -104,7 +104,7 @@
             p.mb-3 En caso de que el número de datos sea impar se coloca la fórmula para la posición del cuartil en la secuencia ordenada:
             .row.mb-3
               .col-10
-                img(src='@/assets/curso/temas/T1/img-13.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-13.svg', alt='Texto que describa la imagen')
 
           .col-md-6
             figure
@@ -142,10 +142,11 @@
 
           .row(titulo="La posición 1.5")
             .col-md-10.mb-4.mb-md-0
-              p La posición 1.5 se obtiene promediando el primer elemento y el segundo.
+              p.mb-0 La posición 1.5 se obtiene promediando el primer elemento y el segundo.
+              p El valor del Q<span class="exponentes">1</span> Q<span class="exponentes">1</span>   es:
               .row.mb-3
                 .col-7
-                  img(src='@/assets/curso/temas/T1/img-18.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/T1/img-18.svg', alt='Texto que describa la imagen')
           
           .row(titulo="La posición del Q2 Q2")
             .col-md-10.mb-4.mb-md-0
@@ -177,7 +178,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-4 <b>Detección de datos atípicos (<i>outliers</i>):</b>
-              p Los valores atípicos o en inglés <i>outliers</i> se caracterizan por ser extremadamente grandes o pequeños, diferentes a los comunes de la muestra. los cuales pueden influenciar en la media y desviación de una muestra. Principalmente si el valor atípico es grande referente a los otros.
+              p Los valores atípicos o en inglés <i>outliers</i> se caracterizan por ser extremadamente grandes o pequeños, diferentes a los comunes de la muestra. Los cuales pueden influenciar en la media y desviación de una muestra. Principalmente si el valor atípico es grande referente a los otros.
             
         .col-3.col-sm-2.col-lg-2
           img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-22.png')

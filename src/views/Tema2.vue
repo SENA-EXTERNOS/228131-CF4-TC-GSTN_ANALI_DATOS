@@ -9,8 +9,8 @@
 
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
-          img(src="@/assets/curso/temas/T2/img-1.png")
+        .col-3.col-sm-2.col-lg-4
+          img(src="@/assets/curso/temas/T2/img-1.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -145,7 +145,7 @@
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Categórica nominal
-                p.mt-3.small-text representan estados sin clasificación intrínseca, ejemplo: marcas de zapatos, género, raza, etnia.
+                p.mt-3.small-text Representan estados sin clasificación intrínseca, ejemplo: marcas de zapatos, género, raza, etnia.
 
       .col-10.col-lg-3
         .row.px-2.pt-2.h-100
@@ -190,7 +190,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p.mb-3 Se emplearon referentes de créditos de consumo otorgados en Medellín y obtenidos de la página de datos abiertos de la alcaldía de la capital de Antioquía en formato csv, Metada alcaldía de Medellín, (2022). 
-                p.mb-3 <b>Se construirá una tabla de distribución de frecuencias por año:</b>
+                p.mb-3 Se construirá una tabla de distribución de frecuencias por año:
           
       .titulo-sexto.color-acento-contenido.mt-5
         p.mb-0 
@@ -283,13 +283,13 @@
               td 
               td 
 
-      p.mb-5 La tabla de datos esta ordenada mediante filas y columnas, las primeras corresponden a la información en forma horizontal, cada uno de los individuos. Las columnas en forma vertical haciendo referencia a cada una de las variables de las reseñas consignadas. La idea fundamental es hacer un tabloide y comparar de forma fácil las diversas características que tienen cada una de las variables de estudio en el problema a resolver. Los datos pueden ser cualitativos o cuantitativos.
+      p.mb-5 La tabla de datos está ordenada mediante filas y columnas, las primeras corresponden a la información en forma horizontal, cada uno de los individuos. Las columnas en forma vertical haciendo referencia a cada una de las variables de las reseñas consignadas. La idea fundamental es hacer un tabloide y comparar de forma fácil las diversas características que tienen cada una de las variables de estudio en el problema a resolver. Los datos pueden ser cualitativos o cuantitativos.
 
     .bloque-texto-a.fab.p-4.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.zoom-in
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p <b>Intervalos de clase:</b> son aquellos en los que se agrupan y ordenan los valores observados. Una variable de la tabla se puede agrupar por intervalo y para ello, se debe tomar los valores máximo y mínimo y dividirlo en cuantas clases o intervalos de clase se va a dividir dicho intervalo. Estos siempre serán cerrados por la izquierda y abiertos por la derecha, excepto el ultimo. La frecuencia o número de casos que cae en ese estaría en una columna al lado llamada frecuencia absoluta o simplemente frecuencia.        
+            p <b>Intervalos de clase:</b> son aquellos en los que se agrupan y ordenan los valores observados. Una variable de la tabla se puede agrupar por intervalo y para ello, se debe tomar los valores máximo y mínimo y dividirlo en cuantas clases o intervalos de clase se va a dividir dicho intervalo. Estos siempre serán cerrados por la izquierda y abiertos por la derecha, excepto el último. La frecuencia o número de casos que cae en ese estaría en una columna al lado llamada frecuencia absoluta o simplemente frecuencia.        
 
         .col-lg-4.mb-4.mb-lg-0
           figure
@@ -326,6 +326,8 @@
           td [8,10)
           td 3
 
+    h4.mb-4 Otro ejemplo
+
     .row.mb-5.mt-5
       .col-md-4.mb-5.mb-md-0
         figure
@@ -335,13 +337,12 @@
         p.mb-3 Se tienen las siguientes 12 notas calificadas del número 1 al 10 en una evaluación de matemáticas correspondiente a la primera evaluación, siendo 1 la menor y 10 la mayor. Se quieren agrupar por intervalos mediante 5 clases. Las 12 notas son:
         p.mb-0 2,3,5,6,7,8,9,3,7,9,10,9
         p.mb-3 Este conjunto de datos se quiere agrupar en forma de intervalo.
-        p.mb-3 Primero se extraerá el valor menor y el mayor. En este caso la estimación mínima es 2 y la máxima es 10, se calcula el tamaño del intervalo, posteriormente se mira cuantos datos caen en ese intervalo, generalmente no se trabajan con más de 10, se puede buscar que la longitud o amplitud del intervalo sea un numero entero, aunque no es estricto, podría ser decimal.
+        p.mb-3 Primero se extraerá el valor menor y el mayor. En este caso la estimación mínima es 2 y la máxima es 10, se calcula el tamaño del intervalo, posteriormente se mira cuantos datos caen en ese intervalo, generalmente no se trabajan con más de 10, se puede buscar que la longitud o amplitud del intervalo sea un número entero, aunque no es estricto, podría ser decimal.
        
     TabsC.color-acento-contenido
       .py-3.py-md-4.texto-titulo(titulo="Amplitud")
         .row
           .col-md-12.mb-4.mb-md-0
-            h4 Amplitud
             p.mb-3 Para calcular la amplitud o longitud del intervalo se utiliza la siguiente fórmula:
           .row.justify-content-around.align-items-center.mb-4
             .col-8.mb-4
@@ -350,14 +351,13 @@
             p.mb-3 Valor máximo es 10, por lo tanto, el máximo = 10
             p.mb-3 Valor mínimo es 2, por lo tanto, mínimo = 2
             p.mb-3 La diferencia entre el valor máximo y mínimo es 8, por ende, valor máximo-valor mínimo = 8 
-            p.mb-3 <b>Para hallar la amplitud o longitud del intervalo</b> el valor anterior lo divididos entre el número de clases que escogimos, en este caso 4
+            p.mb-3 Para hallar la amplitud o longitud del intervalo el valor anterior lo divididos entre el número de clases que escogimos, en este caso 4
             p.mb-3 Por lo tanto, seria 8 dividido en 4 resultando 2, entonces, la amplitud o longitud del intervalo = 2
             p.mb-3 Se inicia con el valor mínimo y el intervalo cerrado a la izquierda y abierto a la derecha con una longitud de 2, es decir, [2,4) (ver tabla 5)
         
       .py-3.py-md-4(titulo="Datos que caben en el intervalo")
         .row
           .col-md-12.mb-4.mb-md-0
-            h4 Datos que caben en el intervalo
             p.mb-3 Se observa cuantas notas caen en cada uno de los intervalos ordenados de forma creciente y se coloca el número en la columna de la frecuencia.
             p.mb-3 La suma de las frecuencias debe ser igual al número total de notas en este caso 12
             .titulo-sexto.color-acento-contenido.mt-5
@@ -386,7 +386,6 @@
       .py-3.py-md-4(titulo="Promedio")
         .row
           .col-md-12.mb-4.mb-md-0
-            h4 Promedio 
             p.mb-3 Si se tienen los datos agrupados como en la tabla 5. Ahora se pide calcular el promedio, tomando un punto medio de cada intervalo, se llama marca de clase, luego se debe multiplicar por la frecuencia y dividirlo por el número total de la frecuencia.
             .col-sm.mb-5.mb-sm-0.align-items-center.mt-5
               ul.lista-ul.mb-5

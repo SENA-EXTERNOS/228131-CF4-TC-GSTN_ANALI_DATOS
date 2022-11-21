@@ -41,7 +41,7 @@
         img(src='@/assets/curso/temas/T3/img-3.png', alt='Texto que describa la imagen')
 
     h3.mb-3 Gráfico circular
-    p.mb-3 muestra en forma de círculo generalmente en porcentaje, indica la proporción que aparece la cifra respecto al total.
+    p.mb-3 Muestra en forma de círculo generalmente en porcentaje, indica la proporción que aparece la cifra respecto al total.
 
     .row.mb-5.md-5
       .col-md-6.mb-5.mb-md-0
@@ -60,7 +60,7 @@
 
     h3.mb-3 Gráfico de cajas y bigotes
     p.mb-3 Estos en forma de caja o rectángulo se emplean para apreciar los cuartiles y el valor mínimo a la izquierda, valor máximo a la derecha con líneas verticales.
-    p.mb-3 <b>Q1: cuartil 1, Q2: cuartil 2(mediana), Q3: cuartil 3, valor mínimo, valor máximo</b>
+    p.mb-3 Q1: cuartil 1, Q2: cuartil 2(mediana), Q3: cuartil 3, valor mínimo, valor máximo
     p.mb-3 Debajo del Cuartil 1(Q1) está el 25% de los datos, debajo del cuartil 2(Q2) es la mediana o dato central se ubica el 50% de los datos, debajo del Q3 se obtiene el 75% de los datos.
     p.mb-3 En el rango intercuartil = Q3-Q1 está el 50% de los datos
     p.mb-3 Por debajo del valor mínimo y por encima del máximo están los valores atípicos o en inglés <i>outliers</i> 
@@ -76,7 +76,7 @@
               img(src='@/assets/curso/temas/T3/img-6.png', alt='Texto que describa la imagen')
 
           .tarjeta.faf.p-3(x="8%" y="50%" numero="1")
-            p.texto-blanco Muestra el número 18. La edad mínima de las personas que reciben 
+            p.texto-blanco Muestra el número 18. La edad mínima de las personas que reciben préstamo.
 
           .tarjeta.faf.p-3(x="27%" y="63%" numero="2")
             p.texto-blanco Cuartil 1 (Q1 = 31) debajo de ese valor está el 25% de la edad de las personas que reciben préstamo.

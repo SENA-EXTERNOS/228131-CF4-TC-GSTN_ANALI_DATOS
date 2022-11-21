@@ -23,7 +23,7 @@
           img(data-aos='fade-right')(src='@/assets/curso/temas/T4/img-2.png', alt='')
 
       .col-md-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fac")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta")
           .row.justify-content-around.align-items-center(titulo="Planteamiento del problema")
             .col-md-10.mb-4.mb-md-0
               p.mb-3 Se explica lo que se quiere resolver o investigar.
@@ -49,7 +49,7 @@
               p Explicar de forma clara empleando los porcentajes y/o totales, además de hallazgos resultado de todo el análisis estadístico a la población objeto. 
 
     h4.mb-5 Ejemplo de Informe estadístico:
-    p.mb-5 En el recurso anterior se explicaron los elementos a tener presentes en un informe estadístico. seguidamente, se plantea un ejemplo donde se interpreta el paso a paso de un informe estadístico que servirá de guía a la hora de realizarlo.
+    p.mb-5 En el recurso anterior se explicaron los elementos a tener presentes en un informe estadístico. Seguidamente, se plantea un ejemplo donde se interpreta el paso a paso de un informe estadístico que servirá de guía a la hora de realizarlo.
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.fag.p-4(titulo="Informe estadístico")
@@ -85,7 +85,7 @@
         
         .row
           .col-xl-8
-            p.mb-4 La población estudio son personas que obtuvieron créditos de consumo otorgados en Medellín por la alcaldía desde año 2017 hasta 2019 (En este caso análisis de tipo estadístico descriptivo), utilizando medidas de tendencia central como: la media, moda y desviación. Gráficos Estadísticos: de cajas y bigotes, histograma, apilados. estáticos utilizando las librerías, Matplotlib,(2022), Seaborn,(2022), Altair,(2022), empleando Google Colab con el lenguaje Python y manejo de tablas de datos.
+            p.mb-4 La población estudió son personas que obtuvieron créditos de consumo otorgados en Medellín por la alcaldía desde año 2017 hasta 2019 (En este caso análisis de tipo estadístico descriptivo), utilizando medidas de tendencia central como: la media, moda y desviación. Gráficos Estadísticos: de cajas y bigotes, histograma, apilados. estáticos utilizando las librerías, <i>Matplotlib</i>,(2022), <i>Seaborn</i>,(2022), <i>Altair</i>,(2022), empleando Google Colab con el lenguaje <i>Python</i> y manejo de tablas de datos.
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/temas/T4/img-6.png', alt='Texto que describa la imagen')
@@ -199,7 +199,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p.mb-5 En Google <i>Colab</i> se tienen máquinas virtuales con tarjetas gráficas. Permite ejecutar el código en el lenguaje <i>Python</i> dentro de la nube con el formato de <i>jupyter notebook</i> extensión <i>ipynb</i>.
-              p.mb-5 <b>A continuación, se presenta el paso a paso que explica el funcionamiento y configuración de la herramienta.</b>
+              p.mb-5 A continuación, se presenta el paso a paso que explica el funcionamiento y configuración de la herramienta.
 
            
     .tarjeta.fai.p-4.mb-5
@@ -230,7 +230,7 @@
             p.mb-3 Cargar la librería de nombre <i>math</i> referente a matemática.
             p.mb-3 <i>print(dir(math))</i>
             p.mb-3 Muestra las funciones que están dentro de la librería <i>math</i>
-            p.mb-3 Pow(2,3) una de las funciones que están en la librería math, es la función potencia en ingles Power, pow(2,3) significa que eleva el número 2 a la  3 da como resultado 8.
+            p.mb-3 Pow(2,3) una de las funciones que están en la librería <i>math</i>, es la función potencia en ingles Power, pow(2,3) significa que eleva el número 2 a la  3 da como resultado 8.
 
         
           .col-md-6
