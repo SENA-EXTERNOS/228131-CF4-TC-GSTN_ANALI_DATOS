@@ -340,7 +340,7 @@
         p.mb-3 Primero se extraerá el valor menor y el mayor. En este caso la estimación mínima es 2 y la máxima es 10, se calcula el tamaño del intervalo, posteriormente se mira cuantos datos caen en ese intervalo, generalmente no se trabajan con más de 10, se puede buscar que la longitud o amplitud del intervalo sea un número entero, aunque no es estricto, podría ser decimal.
        
     TabsC.color-acento-contenido
-      .py-3.py-md-4.texto-titulo(titulo="Amplitud")
+      .py-3.py-md-4.texto-titulo(titulo="<b>Amplitud</b>")
         .row
           .col-md-12.mb-4.mb-md-0
             p.mb-3 Para calcular la amplitud o longitud del intervalo se utiliza la siguiente fórmula:
@@ -355,7 +355,7 @@
             p.mb-3 Por lo tanto, seria 8 dividido en 4 resultando 2, entonces, la amplitud o longitud del intervalo = 2
             p.mb-3 Se inicia con el valor mínimo y el intervalo cerrado a la izquierda y abierto a la derecha con una longitud de 2, es decir, [2,4) (ver tabla 5)
         
-      .py-3.py-md-4(titulo="Datos que caben en el intervalo")
+      .py-3.py-md-4(titulo="<b>Datos que caben en el intervalo</b>")
         .row
           .col-md-12.mb-4.mb-md-0
             p.mb-3 Se observa cuantas notas caen en cada uno de los intervalos ordenados de forma creciente y se coloca el número en la columna de la frecuencia.
@@ -383,7 +383,7 @@
                 | Se examina que el cuarto intervalo [8,10] tiene una frecuencia de 5 que son los datos: 8, 9, 9 ,9, 10
             
         
-      .py-3.py-md-4(titulo="Promedio")
+      .py-3.py-md-4(titulo="<b>Promedio</b>")
         .row
           .col-md-12.mb-4.mb-md-0
             p.mb-3 Si se tienen los datos agrupados como en la tabla 5. Ahora se pide calcular el promedio, tomando un punto medio de cada intervalo, se llama marca de clase, luego se debe multiplicar por la frecuencia y dividirlo por el número total de la frecuencia.
