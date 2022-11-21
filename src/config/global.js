@@ -117,15 +117,14 @@ export default {
       referencia:
         'Moreno, A., & Córcoles, S. (2020),Python práctico (1ma ed) Bogotá: Ediciones de la U. ',
       tipo: 'Libro digital',
-      descarga:
-        'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10285&pg=1',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10285&pg=1',
     },
     {
       tema: 'Jupyter for Data Science',
       referencia:
         'TOOMEY, D. (2017) Your One-stop Guide to Building an Efficient Data Science Pipeline Using Jupyter. Birmingham: Packt Publishing. ',
       tipo: '',
-      descarga:
+      descarga: 
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1637911&lang=es&site=ehost-live',
     },
     {
