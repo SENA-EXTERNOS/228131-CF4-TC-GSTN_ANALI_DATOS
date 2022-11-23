@@ -70,7 +70,7 @@
         .titulo-sexto.color-acento-contenido.mt-5
             p.mb-0 
               p.mb-1 <b>Figura 4.</b><i>Muestra un gráfico de cajas y bigotes para la edad de las personas que reciben préstamo</i>
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/T3/img-6.png', alt='Texto que describa la imagen')
@@ -97,7 +97,7 @@
         .titulo-sexto.color-acento-contenido.mt-5
           p.mb-0 
             p.mb-1 <b>Figura 5.</b><i>Gráfico de cajas ybigotes estrato vs edad de las personas que reciben crédito.</i>
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/T3/img-7.png', alt='Texto que describa la imagen')

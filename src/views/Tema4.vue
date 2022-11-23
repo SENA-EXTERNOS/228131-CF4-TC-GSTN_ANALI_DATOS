@@ -102,7 +102,7 @@
                     .col.mb-3.mb-sm-0.texto-blanco
                       p Se muestra el análisis de ejemplo de las tablas y gráficos. 
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/análisis_de_ejemplo_de_las_tablas_y_graficos.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-file-download
           .col-xl-4.mb-4
@@ -166,7 +166,7 @@
             .col.mb-3.mb-sm-240
               img(src="@/assets/curso/temas/T4/img-10.svg")
               p.texto-blanco Manejo de Google Colab.pdf
-        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/MANEJO_DE_GOOGLE_COLAB.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
 
@@ -177,7 +177,7 @@
             .col.mb-3.mb-sm-240
               img(src="@/assets/curso/temas/T4/img-11.svg")
               p.texto-blanco Créditos de consumo otorgados.csv
-        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/creditos_de_consumo_otorgados.csv')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
             
@@ -187,7 +187,7 @@
             .col.mb-3.mb-sm-240
               img(src="@/assets/curso/temas/T4/img-12.svg")
               p.texto-blanco Gráficos Plotly video.ipynb
-        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/gráficos_Plotly_video.ipynb')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
 
