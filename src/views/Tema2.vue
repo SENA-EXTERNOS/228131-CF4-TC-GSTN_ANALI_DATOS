@@ -265,11 +265,11 @@
               td 1921/12152 = 0.158
               td 15.80%
             tr
-              td 2018
-              td 8765
-              td 10686
-              td 10686/12152=0.8793
-              td 87.93%
+              td.color-fila 2018
+              td.color-fila 8765
+              td.color-fila 10686
+              td.color-fila 10686/12152=0.8793
+              td.color-fila 87.93%
             tr
               td 2019
               td 1466
@@ -277,11 +277,11 @@
               td 12152/12152 = 1
               td 100%
             tr
-              td <b>Total</b>
-              td 12152
-              td 
-              td 
-              td 
+              td.color-fila <b>Total</b>
+              td.color-fila 12152
+              td.color-fila 
+              td.color-fila 
+              td.color-fila 
 
       p.mb-5 La tabla de datos está ordenada mediante filas y columnas, las primeras corresponden a la información en forma horizontal, cada uno de los individuos. Las columnas en forma vertical haciendo referencia a cada una de las variables de las reseñas consignadas. La idea fundamental es hacer un tabloide y comparar de forma fácil las diversas características que tienen cada una de las variables de estudio en el problema a resolver. Los datos pueden ser cualitativos o cuantitativos.
 

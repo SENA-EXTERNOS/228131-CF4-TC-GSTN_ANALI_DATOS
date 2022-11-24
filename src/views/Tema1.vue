@@ -138,7 +138,7 @@
               p.mb-1 La posición del  Q<span class="exponentes">1</span> Q<span class="exponentes">1</span> es
               .row.mb-3
                 .col-10
-                  img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/T1/img-17.svg', alt='Texto que describa la imagen')
 
           .row(titulo="La posición 1.5")
             .col-md-10.mb-4.mb-md-0
@@ -153,7 +153,7 @@
               p La posición del  Q<span class="exponentes">2</span> Q<span class="exponentes">2</span> es
               .row.mb-3
                 .col-7
-                  img(src='@/assets/curso/temas/T1/img-19.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/T1/img-19.svg', alt='Texto que describa la imagen')
 
           .row(titulo="El valor del cuartil 2")
             .col-md-7.mb-4.mb-md-0
@@ -163,14 +163,14 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/T1/img-20.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/T1/img-20.svg', alt='Texto que describa la imagen')
 
           .row(titulo="El valor del Q3 Q3")
             .col-md-10.mb-4.mb-md-0
               p es: el promedio del elemento que está en la posición 4 con el que está en la posición 5.
               .row.mb-3
                 .col-7
-                  img(src='@/assets/curso/temas/T1/img-21.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/T1/img-21.svg', alt='Texto que describa la imagen')
 
     .p-3.mb-5
       .row.justify-content-around.align-items-center
