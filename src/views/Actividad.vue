@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Estadística descriptiva, gráficas e informe estadísticos
-        p.mb-4 Durante el transcurso de este componente formativo se afianzó el concepto de estadística descriptiva, disciplina responsable de recopilar, almacenar, organizar, tabular o graficar y calcular los parámetros básicos de los conjuntos de datos. Por ello, el propósito de la siguiente actividad es poner a prueba el nivel de conocimientos y aprendizajes obtenidos.
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

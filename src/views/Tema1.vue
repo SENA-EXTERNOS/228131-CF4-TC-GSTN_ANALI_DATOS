@@ -20,7 +20,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p.mb-5 Para entrar en materia se dará la explicación de los conceptos teóricos y prácticos referente a la estadística descriptiva, Martínez, (2019).
+            p.mb-5 Para entrar en materia se dará la explicación de los conceptos teóricos y prácticos referente a la estadística descriptiva (Martínez, 2019).
             p.mb-3 El promedio o media <i><b>XX</b></i> se calcula sumando todos los datos y dividiendo entre el número total de los mismos.
             p.mb-3 El promedio se simboliza con la letra X y una barra lineal ━ encima de esa letra: X
             p.mb-3 <i><b>XX</b></i> = promedio = media
@@ -32,7 +32,7 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             p.mb-2 <b>Ejemplo:</b>
-            p.mb-5 calcular el promedio de los siguientes valores: 3, 4, 5, 6,3
+            p.mb-5 calcular el promedio de los siguientes valores: 3, 4, 5, 6, 3.
         
           
             figure
@@ -50,13 +50,13 @@
             p.mb-3 La varianza se simboliza con (σ)<span class="exponente">2</span> (σ)<span class="exponente">2</span> 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/T1/img-4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-4.svg', alt='Texto que describa la imagen')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             p.mb-0 <b>Moda:</b> es el dato que más se repite.
             p.mb-3 En este caso la moda es 3 se repite 2 veces.
-            p.mb-3 <b>Media geométrica:</b> Es la raíz enésima del producto de los números.
+            p.mb-3 <b>Media geométrica:</b> es la raíz enésima del producto de los números.
             p.mb-3 En el ejemplo 3, 4, 5, 6,3 la media geométrica sería la raíz quinta debido a que son 5 de la multiplicación de los 5 elementos
           .col-md-6
             figure
@@ -65,7 +65,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p.mb-0 <b>Media armónica:</b> es el recíproco de la media aritmética. Se calcula como el número total de observaciones dividido por la suma de los recíprocos
+            p.mb-0 <b>Media armónica:</b> es el recíproco de la media aritmética. Se calcula como el número total de observaciones dividido por la suma de los recíprocos.
             .row.mb-3
               .col-5
                 img(src='@/assets/curso/temas/T1/img-8.png', alt='Texto que describa la imagen')
@@ -89,7 +89,7 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             p.mb-3 <b>Cálculo de cuartiles: </b>
-            p.mb-3 Debajo del Cuartil 1(Q1) está el 25% de los datos, debajo del cuartil 2(Q2) es la mediana o dato central se ubica el 50% de los datos, debajo del Q3 se obtiene el 75% de los referentes.
+            p.mb-3 Debajo del cuartil 1(Q1) está el 25 % de los datos, debajo del cuartil 2(Q2) es la mediana o dato central se ubica el 50 % de los datos, debajo del Q3 se obtiene el 75 % de los referentes.
             p.mb-3 Para el cálculo de los cuartiles primero se ordena de menor a mayor.
             p.mb-3 Cuando el número es par se utiliza la fórmula para la posición del cuartil en la secuencia ordenada:
 
@@ -101,7 +101,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p.mb-3 En caso de que el número de datos sea impar se coloca la fórmula para la posición del cuartil en la secuencia ordenada:
+            p.mb-3 En caso que el número de datos sea impar, se coloca la fórmula para la posición del cuartil en la secuencia ordenada:
             .row.mb-3
               .col-10
                 img(src='@/assets/curso/temas/T1/img-13.svg', alt='Texto que describa la imagen')
@@ -167,7 +167,7 @@
 
           .row(titulo="El valor del Q3 Q3")
             .col-md-10.mb-4.mb-md-0
-              p es: el promedio del elemento que está en la posición 4 con el que está en la posición 5.
+              p Es el promedio del elemento que está en la posición 4 con el que está en la posición 5.
               .row.mb-3
                 .col-7
                   img(src='@/assets/curso/temas/T1/img-21.svg', alt='Texto que describa la imagen')
@@ -177,14 +177,14 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-4 <b>Detección de datos atípicos (<i>outliers</i>):</b>
-              p Los valores atípicos o en inglés <i>outliers</i> se caracterizan por ser extremadamente grandes o pequeños, diferentes a los comunes de la muestra. Los cuales pueden influenciar en la media y desviación de una muestra. Principalmente si el valor atípico es grande referente a los otros.
+              h3.mb-4 <b>Detección de datos atípicos (outliers):</b>
+              p Los valores atípicos o en inglés outliers se caracterizan por ser extremadamente grandes o pequeños, diferentes a los comunes de la muestra, los cuales pueden influenciar en la media y desviación de una muestra, principalmente si el valor atípico es grande, referente a los otros. (Vladimirovna & Gutiérrez, 2016)
             
         .col-3.col-sm-2.col-lg-2
           img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-22.png')
 
-    h3.mb-4 Ejemplos 
-    p En la siguiente serie de datos [2, 6, 8, 20, 30, 40 500] el valor atípico es 500, esta cifra puede influenciar en la media y desviación de un muestreo.
+    h3.mb-4 Ejemplos: 
+    p En la siguiente serie de datos [2, 6, 8, 20, 30, 40, 500] el valor atípico es 500; esta cifra puede influenciar en la media y desviación de un muestreo.
 
 
     PasosA.color-acento-botones.mb-3
@@ -202,7 +202,7 @@
           figure
             img(src='@/assets/curso/temas/T1/img-24.png')
         .col.mb-8.mb-md-0.text-start
-          p Para hallar el intervalo de los valores atípicos primero se calcula la diferencia entre Q3(cuartil 3) y Q1(cuartil 1), obteniendo el rango intercuartil iqr = Q3-Q1. Este rango intercuartil abarca el 50% de los datos. 
+          p Para hallar el intervalo de los valores atípicos, primero se calcula la diferencia entre Q3 (cuartil 3) y Q1 (cuartil 1), obteniendo el rango intercuartil iqr = Q3-Q1. Este rango intercuartil abarca el 50 % de los datos. 
           
 
 

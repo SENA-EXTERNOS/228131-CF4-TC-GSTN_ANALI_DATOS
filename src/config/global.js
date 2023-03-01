@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Estadística descriptiva, gráficas e informe estadísticos.',
+      'Estadística descriptiva, gráficas e informe estadístico',
     descripcionCurso:
-      'En este componente se manejan las bases de la estadística descriptiva, se emplean conceptos fundamentales como el de promedio o media de un conjunto con el objetivo de tener la fundamentación teórica para la compresión del análisis estadístico, utilizando diferentes gráficas como de histogramas, cajas y bigotes y gráfico circular de forma dinámica. Todo esto, presentado de forma detallada con contraste y observación de datos.',
+      'En este componente, se manejan las bases de la estadística descriptiva, empleando conceptos fundamentales como el de promedio o media de un conjunto, para así tener la fundamentación teórica y la compresión del análisis estadístico, utilizando diferentes gráficas como: histogramas, gráfico circular, cajas y bigotes, de forma dinámica. Todo esto, presentado detalladamente con contraste y observación de datos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
     imagenesDecorativasBanner: [
@@ -38,7 +38,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Estadística descriptiva.',
+        titulo: 'Estadística descriptiva',
         desarrolloContenidos: true,
       },
 
@@ -46,21 +46,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Organiza una tabla de datos y los tipos de variable.',
+        titulo: 'Organiza una tabla de datos y los tipos de variable',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Gráficos.',
+        titulo: 'Gráficos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Elaboración del informe estadístico.',
+        titulo: 'Elaboración del informe estadístico',
         desarrolloContenidos: true,
       },
     ],
@@ -108,37 +108,37 @@ export default {
     {
       tema: 'Estadística descriptiva.',
       referencia:
-        'Aguilar, J. (2021), Estadística Descriptiva regresión y probabilidades con aplicaciones (1ma ed), Bogotá, Ediciones de la U. ',
+        'Aguilar, J. (2021). <i>Estadística Descriptiva regresión y probabilidades con aplicaciones.</i> Ediciones de la U. ',
       tipo: 'Libro digital',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=15156&pg=202',
     },
     {
-      tema: 'Python practico',
+      tema: 'Gráficos',
       referencia:
-        'Moreno, A., & Córcoles, S. (2020),Python práctico (1ma ed) Bogotá: Ediciones de la U. ',
+        'Moreno, A. & Córcoles, S. (2020). <i>Python práctico.</i> Ediciones de la U.',
       tipo: 'Libro digital',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10285&pg=1',
     },
     {
-      tema: 'Jupyter for Data Science',
+      tema: 'Gráficos',
       referencia:
-        'TOOMEY, D. (2017) Your One-stop Guide to Building an Efficient Data Science Pipeline Using Jupyter. Birmingham: Packt Publishing. ',
-      tipo: '',
+        'Toomey, D. (2017).<i> Your One-stop Guide to Building an Efficient Data Science Pipeline Using Jupyter</i>. Packt Publishing. ',
+      tipo: 'Libro',
       link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1637911&lang=es&site=ehost-live',
     },
     {
-      tema: 'Learning Jupyter 5',
+      tema: 'Gráficos',
       referencia:
-        'TOOMEY, D. (2018). Explore Interactive Computing Using Python. 2nd Edition. ',
-      tipo: '',
+        'Toomey, D. (2018).<i> Explore Interactive Computing Using Python.</i> Packt Publishing.',
+      tipo: 'Libro',
       link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1881491&lang=es&site=ehost-live',
     },
     {
-      tema: 'Estadística',
+      tema: 'Estadística descriptiva',
       referencia:
-        'Triola, M. (2018). Estadística (Vol. 12 edición). Mexico: Pearson. ',
+        'Triola, M. (2018).<i> Estadística</i> (12 edición). Pearson. ',
       tipo: 'Libro digital',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7386&pg=149',
     },
@@ -147,117 +147,119 @@ export default {
     {
       termino: 'Censo',
       significado:
-        'Un conjunto de actividades destinadas a recoger, recopilar, el padrón o lista de la población de una nación en un momento determinado, la información demográfica social y económica, para luego evaluar, analizar y publicar o divulgar.',
+        'un conjunto de actividades destinadas a recoger, recopilar, el padrón o lista de la población de una nación en un momento determinado, la información demográfica social y económica, para luego evaluar, analizar y publicar o divulgar.',
     },
     {
       termino: 'Continua',
       significado:
-        'Es aquella que puede tomar un número infinito de valores entre dos valores distintos de una característica. La altura de las 5 personas: 1.85, 1.89, 1.93, 1.59, 1.65. En la práctica se mide la altura con dos decimales, pero también se puede dar con tres decimales o más.',
+        'es aquella que puede tomar un número infinito de valores entre dos valores distintos de una característica. La altura de las 5 personas: 1.85, 1.89, 1.93, 1.59, 1.65. En la práctica se mide la altura con dos decimales, pero también se puede dar con tres decimales o más.',
     },
     {
       termino: 'Cualitativa',
       significado:
-        'Son aquellas en la que los resultados posibles no son valores numéricos. Por ejemplo: color del pelo, tipo de ropa preferida, lugar de veraneo, etc.',
+        'son aquellas en la que los resultados posibles no son valores numéricos. Por ejemplo: color del pelo, tipo de ropa preferida, lugar de veraneo, etc.',
     },
     {
       termino: 'Cuantitativa',
       significado:
-        'Se trata de características cuyas variaciones pueden ser expresadas de forma numérica. Por ejemplo: edad, peso, estatura, número de hijos, años de servicio, etc.',
+        'se trata de características cuyas variaciones pueden ser expresadas de forma numérica. Por ejemplo: edad, peso, estatura, número de hijos, años de servicio, etc.',
     },
     {
       termino: 'Cuartiles',
       significado:
-        'Son 4 dividen un conjunto de datos ordenados en cuatro partes iguales. Cuartil 1 (Q1) 25%, la mediana es el Cuartil 2 (Q2) 50%,Cuartil 3 (Q3) 75% Cuartil 4 (Q4) 100%.Se trabaja principalmente con los Q1,Q2,Q3',
+        'son 4 dividen un conjunto de datos ordenados en cuatro partes iguales. Cuartil 1 (Q1) 25 %, la mediana es el Cuartil 2 (Q2) 50 %,Cuartil 3 (Q3) 75 % Cuartil 4 (Q4) 100 %.Se trabaja principalmente con los Q1, Q2, Q3.',
     },
     {
       termino: 'Dato atípico',
-      significado: 'Es un valor mayor a 1.5 veces el rango intercuartil.',
+      significado: 'es un valor mayor a 1.5 veces el rango intercuartil.',
     },
     {
       termino: 'Desviación estándar',
       significado:
-        'Mide la dispersión de una distribución de datos. Entre más dispersa está una distribución de referencias, más grande es su desviación estándar.',
+        'mide la dispersión de una distribución de datos. Entre más dispersa está una distribución de referencias, más grande es su desviación estándar.',
     },
     {
       termino: 'Discreta',
       significado:
-        'Es cuando no se puede tomar ningún valor entre dos consecutivos, y que es continua al momento de  tomar cualquier valor dentro de un intervalo. Ejemplos de variable discreta: número de empleados de una fábrica; número de hijos; número de cuentas en un banco.',
+        'es cuando no se puede tomar ningún valor entre dos consecutivos, y que es continua al momento de  tomar cualquier valor dentro de un intervalo. Ejemplos de variable discreta: número de empleados de una fábrica; número de hijos; número de cuentas en un banco.',
     },
     {
       termino: 'Escala cronológica',
       significado:
-        'Hace referencia a los sucesos, es la ubicación de éstos en una línea temporal.',
+        'hace referencia a los sucesos, es la ubicación de éstos en una línea temporal.',
     },
     {
       termino: 'Escala nominal',
       significado:
-        'Es la gama de medición en la cual los números sirven como “etiquetas” solamente para identificar o clasificar un objeto. normalmente trata sólo con variables no numéricas (no cuantitativas).',
+        'es la gama de medición en la cual los números sirven como “etiquetas” solamente para identificar o clasificar un objeto. normalmente trata solo con variables no numéricas (no cuantitativas).',
     },
     {
       termino: 'Escala ordinal',
       significado:
-        'Es la que permite evaluar la actitud de un encuestado con respecto a un tema utilizando un conjunto de respuestas ordenadas. Por ejemplo: “Muy satisfecho”, “Satisfecho”, “Insatisfecho” y “Muy insatisfecho”.',
+        'es la que permite evaluar la actitud de un encuestado con respecto a un tema utilizando un conjunto de respuestas ordenadas. Por ejemplo: “Muy satisfecho”, “Satisfecho”, “Insatisfecho” y “Muy insatisfecho”.',
     },
     {
       termino: 'Estadísticos',
       significado:
-        'Hace referencia a cualquier función real medible de la muestra en una variable aleatoria.',
+        'hace referencia a cualquier función real medible de la muestra en una variable aleatoria.',
     },
     {
       termino: 'Media',
       significado:
-        'Resultado que se obtiene al dividir la suma de varias cantidades por el número de sumandos.',
+        'resultado que se obtiene al dividir la suma de varias cantidades por el número de sumandos.',
     },
     {
       termino: 'Muestreo',
       significado:
-        'Selección de un conjunto de personas o cosas que se consideran representativas del grupo al que pertenecen, con la finalidad de estudiar o determinar las características del grupo.',
+        'selección de un conjunto de personas o cosas que se consideran representativas del grupo al que pertenecen, con la finalidad de estudiar o determinar las características del grupo.',
     },
     {
       termino: 'Rango intercuartil',
       significado:
-        'Es una medida de dispersión. Se obtiene restando el cuartil 3 (Q3) menos el cuartil 1(Q1); Q3-Q1 en ese rango está el 50% de los datos.',
+        'es una medida de dispersión. Se obtiene restando el cuartil 3 (Q3) menos el cuartil 1(Q1); Q3-Q1 en ese rango está el 50 % de los datos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Lind, D., & Marchal, W. (2019), Estadística Aplicada a los negocios y la economía. ',
+        'Lind, D. & Marchal, W. (2019).<i> Estadística Aplicada a los negocios y la economía</i>',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9246&pg=315. ',
     },
     {
       referencia:
-        'Metada alcaldía de Medellín, (2022), Créditos de consumo otorgados.',
+        'Metada Alcaldía de Medellín. (2022). <i>Créditos de consumo otorgados.</i>',
       link: 'https://acortar.link/zGU2gK',
     },
     {
-      referencia: 'Martínez, C. (2019), Estadística y muestreo.',
+      referencia: 'Martínez, C. (2019). <i>Estadística y muestreo.</i>',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9278&pg=387.',
     },
     {
-      referencia: 'Martínez, C. (2019), Estadística básica aplicada.',
+      referencia: 'Martínez, C. (2019). <i>Estadística básica aplicada.</i>',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=8975&pg=82',
     },
     {
-      referencia: 'Matplotlib. (2022), Visualización con Python.  ',
+      referencia: 'Matplotlib. (2022). <i>Visualización con Python.</i>',
       link: ' https://matplotlib.org/',
     },
     {
       referencia:
-        'Plotly(2022), Plotly Biblioteca de gráficos de código abierto para Python. ',
+        'Plotly. (2022). <i>Plotly Biblioteca de gráficos de código abierto para Python.</i>',
       link: 'https://plotly.com/python/',
     },
     {
-      referencia: 'Seaborn. (2022). visualización de datos estadísticos. ',
+      referencia:
+        'Seaborn. (2022). <i>Visualización de datos estadísticos.</i>',
       link: 'https://seaborn.pydata.org/',
     },
     {
-      referencia: 'Vega, A (2022). Visualización declarativa en Python.',
+      referencia:
+        'Vega-Altair. (2022). <i>Visualización declarativa en Python.</i>',
       link: 'https://altair-viz.github.io/',
     },
     {
       referencia:
-        'Vladimirovna, O. &  Gutiérrez, E. (2016). Estadística inferencial 1 para ingeniería y ciencias.',
+        'Vladimirovna, O. & Gutiérrez, E. (2016). <i>Estadística inferencial 1 para ingeniería y ciencias.</i>',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/40474?page=69',
     },
