@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Organiza una tabla de datos y los tipos de variable
+      h1 Organizar una tabla de datos y los tipos de variable
 
     .tarjeta.p-3.mb-5
-      .row.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center.mb-5
         .col-3.col-sm-2.col-lg-4
           img(src="@/assets/curso/temas/T2/img-1.svg")
         .col
@@ -76,7 +76,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-2.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-2-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 .h4.small-text.mt-sm-3.mt-md-0 Edad 
@@ -86,7 +86,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-3.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-3-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Sexo o género 
@@ -95,7 +95,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-4.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-4-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Cabeza de hogar 
@@ -105,7 +105,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-5.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-5-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Tipo de trabajo
@@ -117,7 +117,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-6.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-6-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 .h4.small-text.mt-sm-3.mt-md-0 Estrato 
@@ -127,7 +127,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-7.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-7-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Variables 
@@ -138,7 +138,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-8.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-8-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Categórica nominal
@@ -148,7 +148,7 @@
         .row.px-2.pt-2.h-100
           .col-10.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/curso/temas/T2/img-9.png", alt="Texto que describa la imagen")
+              img(src="@/assets/curso/temas/T2/img-9-.png", alt="Texto que describa la imagen")
             .text.p-lg-2.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 Categórico ordinal
@@ -240,6 +240,7 @@
 
 
       .titulo-sexto.color-acento-contenido.mt-5
+        h5 Tabla 1
         p.mb-0 
           p.mb-1 <i>Año vs frecuencia absoluta relativa de beneficiarios del crédito de consumo</i>
 
@@ -295,7 +296,7 @@
     p.mb-5 <b>Ejemplo:</b>
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Tabla 1
+      h5 Tabla 2
       p.mb-0
         em Muestra intervalos vs frecuencia absoluta
 
@@ -352,17 +353,14 @@
             p.mb-3 La diferencia entre el valor máximo y mínimo es 8, por ende, valor máximo-valor mínimo = 8 
             p.mb-3 Para hallar la amplitud o longitud del intervalo el valor anterior, lo dividimos entre el número de clases que escogimos, en este caso 4.
             p.mb-3 Por lo tanto, seria 8 dividido en 4 resultando 2, entonces, la amplitud o longitud del intervalo = 2
-            p.mb-3 Se inicia con el valor mínimo y el intervalo cerrado a la izquierda y abierto a la derecha con una longitud de 2, es decir, [2,4) (ver tabla 5)
+            p.mb-3 Se inicia con el valor mínimo y el intervalo cerrado a la izquierda y abierto a la derecha con una longitud de 2, es decir, [2,4) (ver tabla 3)
         
       .py-3.py-md-4(titulo="<b>Datos que caben en el intervalo</b>")
         .row
           .col-md-12.mb-4.mb-md-0
             p.mb-3 Se observa cuantas notas caen en cada uno de los intervalos ordenados de forma creciente y se coloca el número en la columna de la frecuencia.
             p.mb-3 La suma de las frecuencias debe ser igual al número total de notas en este caso 12.
-            .titulo-sexto.color-acento-contenido.mt-5
-              h5 Tabla 2
-              p.mb-0
-                em Intervalo versus Frecuencia notas
+
           .row.justify-content-around.align-items-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/T2/img-17.png', alt='Texto que describa la imagen')

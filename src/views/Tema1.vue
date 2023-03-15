@@ -167,7 +167,7 @@
 
           .row(titulo="El valor del Q3 Q3")
             .col-md-10.mb-4.mb-md-0
-              p Es el promedio del elemento que está en la posición 4 con el que está en la posición 5.
+              p Es el promedio del elemento que está en la posición 4, con el que está en la posición 5. 
               .row.mb-3
                 .col-7
                   img(src='@/assets/curso/temas/T1/img-21.svg', alt='Texto que describa la imagen')
@@ -190,7 +190,7 @@
     PasosA.color-acento-botones.mb-3
       .row.justify-content-around.align-items-center
         .col.mb-8.mb-md-0
-          p En la siguiente serie de datos [500, 600,700, 2,5, 1000, 500] los valores atípicos son 2 y 5. 
+          p En la siguiente serie de datos [500, 600, 700, 2, 5, 1000, 500] los valores atípicos son 2 y 5. 
           
         .col-md-4
           figure

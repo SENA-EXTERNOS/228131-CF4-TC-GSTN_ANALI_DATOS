@@ -46,7 +46,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Organiza una tabla de datos y los tipos de variable',
+        titulo: 'Organizar una tabla de datos y los tipos de variable',
         desarrolloContenidos: true,
       },
       {
@@ -222,7 +222,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Lind, D. & Marchal, W. (2019).<i> Estadística Aplicada a los negocios y la economía</i>',
+        'Lind, D. & Marchal, W. (2019).<i> Estadística Aplicada a los negocios y la economía.</i>',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9246&pg=315. ',
     },
     {

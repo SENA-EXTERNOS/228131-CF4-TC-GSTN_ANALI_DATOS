@@ -160,40 +160,39 @@
 
     p.mb-4 Para comprender fácilmente el video, específicamente el manejo de Google Colab y el documento Jupyter, Notebook con extensión ipynb, se recomienda descargar los 3 archivos adjuntos.
 
-    .row.justify-content-around.mb-5
-      .col-md-2.col-sm-4.h240
-        .tarjeta.faf.p-5.mb-3
-          .row.justify-content-around.align-items-center
-            .col.mb-3.mb-sm-240
-              img(src="@/assets/curso/temas/T4/img-10.svg")
-              p.texto-blanco Manejo de Google Colab.pdf
-        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/MANEJO_DE_GOOGLE_COLAB.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
+    .row.justify-content-center.align-items-center
+      .col-lg-9
+        .row.justify-content-center.align-items-center
+          .col-lg-4.mb-5
+            div.tarjeta.faf.p-4.mb-3
+              img.img-106.mb-3(src="@/assets/curso/temas/T4/img-10.svg")
+              h5.texto-blanco.text-center Manejo de Google <br>Colab.pdf
+            div.text-center
+              a.boton--sm.color-acento-botones.me-3(:href="obtenerLink('downloads/MANEJO_DE_GOOGLE_COLAB.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
+          .col-lg-4.mb-5
+            div.tarjeta.faf.p-4.mb-3
+              img.img-106.mb-3(src="@/assets/curso/temas/T4/img-11.svg")
+              h5.texto-blanco.text-center Créditos de consumo otorgados.csv
+            div.text-center
+              a.boton--sm.color-acento-botones.me-3(:href="obtenerLink('downloads/creditos_de_consumo_otorgados.csv')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
+
+          .col-lg-4.mb-5
+            div.tarjeta.faf.p-4.mb-3
+              img.img-106.mb-3(src="@/assets/curso/temas/T4/img-12.svg")
+              h5.texto-blanco.text-center Gráficos Plotly <br>video.ipynb
+            div.text-center
+              a.boton--sm.color-acento-botones.me-3(:href="obtenerLink('downloads/gráficos_Plotly_video.ipynb')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download                  
 
 
-      .col-md-2.col-sm-4.h240
-        .tarjeta.faf.p-5
-          .row.justify-content-around.align-items-center
-            .col.mb-3.mb-sm-240
-              img(src="@/assets/curso/temas/T4/img-11.svg")
-              p.texto-blanco Créditos de consumo otorgados.csv
-        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/creditos_de_consumo_otorgados.csv')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
-            
-      .col-md-2.col-sm-4.h240
-        .tarjeta.faf.p-5
-          .row.justify-content-around.align-items-center
-            .col.mb-3.mb-sm-240
-              img(src="@/assets/curso/temas/T4/img-12.svg")
-              p.texto-blanco Gráficos Plotly video.ipynb
-        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/gráficos_Plotly_video.ipynb')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
 
     .tarjeta.p-3.mb-5
-      .row.justify-content-around.align-items-center
+      .row.justify-content-center.align-items-center
         .col-3.col-sm-2.col-lg-2
           img(src="@/assets/curso/temas/T4/img-13.svg")
         .col
@@ -210,9 +209,7 @@
             p.mb-3 Dentro de Google Colab se está en un entorno interactivo denominado notebook de Colab, que permite escribir y ejecutar código celda por celda o todo de una vez, se obtiene en la pestaña código.
             p.mb-3 Escribe en un lenguaje etiquetado especial llamado Markdown, se obtiene en la pestaña de nombre texto.
           .col-md-6
-            .titulo-sexto.color-acento-contenido.mt-5
-              p.mb-0 
-                p.mb-1 <i>Pantalla de inicio de Google Colab.</i>
+            p Pantalla de inicio de Google Colab.
             figure
               img(src='@/assets/curso/temas/T4/img-14.png', alt='Texto que describa la imagen')
           
@@ -223,21 +220,20 @@
             p.mb-0 <i>pip install pandas</i>
             p.mb-4 Instalaría la librería de nombre pandas si ya está instalada lo dirá.
             h4.mb-3 Importar librería con un alias(as)
+            p.mb-0 <b>Ejemplo:</b>
             p.mb-0 <i>import</i>pandas as pd 
             p.mb-4 cargar la librería pandas con el alias o abreviación pd
             p.mb-0 <b>Ejemplo:</b>
             p.mb-0 <i>import math</i>
             p.mb-3 Cargar la librería de nombre <i>math</i> referente a matemática.
             p.mb-3 <i>print(dir(math))</i>
-            p.mb-3 Muestra las funciones que están dentro de la librería <i>math</i>
+            p.mb-3 Muestra las funciones que están dentro de la librería <i>math.</i>
             p.mb-3 Pow (2,3) una de las funciones que están en la librería <i>math</i>, es la función potencia en inglés Power, pow (2,3) significa que eleva el número 2 a la 3 da como resultado 8.
 
 
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido.mt-5
-              p.mb-0 
-                p.mb-1 <i>Importar la librería math y utiliza la función potencia: pow()</i>
+            p Importar la librería math y utilizar la función potencia: pow().
             figure
               img(src='@/assets/curso/temas/T4/img-15.png', alt='Texto que describa la imagen')
 
@@ -251,9 +247,7 @@
 
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido.mt-5
-              p.mb-0 
-                p.mb-1 <i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
+            p Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv().
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
 
@@ -271,9 +265,7 @@
             p.mb-0 <i>data_frame</i>
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido.mt-5
-              p.mb-0 
-                p.mb-1 <i>Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()</i>
+            p Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv().
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
           
@@ -286,9 +278,7 @@
             p.mb-3 <i>data_frame.tail()</i>
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido.mt-5
-              p.mb-0 
-                p.mb-1 <i>Contenido de las primeras y últimas 5 filas del data frame</i>.
+            p Contenido de las primeras y últimas 5 filas del data frame.
             figure
               img(src='@/assets/curso/temas/T4/img-17.png', alt='Texto que describa la imagen')
               
@@ -302,9 +292,7 @@
             p.mb-0 <i>Shape:  (3000, 9)</i>
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido.mt-5
-              p.mb-0 
-                p.mb-1 <i>Muestra la dimensión y el nombre de las columnas del data frame</i>
+            p Muestra la dimensión y el nombre de las columnas del data frame.
             figure
               img(src='@/assets/curso/temas/T4/img-18.png', alt='Texto que describa la imagen')
 
@@ -316,9 +304,7 @@
             p.mb-3 Redondear la salida de los valores a 2 decimales.
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido.mt-5
-              p.mb-0 
-                p.mb-1 <i>Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'</i>.
+            p Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'.
             figure
               img(src='@/assets/curso/temas/T4/img-19.png', alt='Texto que describa la imagen')
     p.mb-5 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
