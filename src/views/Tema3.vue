@@ -96,7 +96,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 5
             p.mb-0
-              em  Gráfico: Estrato versus edad           
+              em  Gráfico de cajas y bigotes: estrato versus edad           
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
