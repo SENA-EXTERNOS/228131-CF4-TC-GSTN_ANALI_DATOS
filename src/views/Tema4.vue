@@ -209,7 +209,8 @@
             p.mb-3 Dentro de Google Colab se está en un entorno interactivo denominado notebook de Colab, que permite escribir y ejecutar código celda por celda o todo de una vez, se obtiene en la pestaña código.
             p.mb-3 Escribe en un lenguaje etiquetado especial llamado Markdown, se obtiene en la pestaña de nombre texto.
           .col-md-6
-            p Pantalla de inicio de Google Colab.
+            h5
+              em Pantalla de inicio de Google Colab
             figure
               img(src='@/assets/curso/temas/T4/img-14.png', alt='Texto que describa la imagen')
           
@@ -233,7 +234,8 @@
 
         
           .col-md-6
-            p Importar la librería math y utilizar la función potencia: pow().
+            h5
+              em Importar la librería math y utilizar la función potencia: pow()
             figure
               img(src='@/assets/curso/temas/T4/img-15.png', alt='Texto que describa la imagen')
 
@@ -247,7 +249,8 @@
 
         
           .col-md-6
-            p Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv().
+            h5
+              em Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
 
@@ -265,7 +268,8 @@
             p.mb-0 <i>data_frame</i>
         
           .col-md-6
-            p Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv().
+            h5
+              em Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()
             figure
               img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
           
@@ -278,7 +282,8 @@
             p.mb-3 <i>data_frame.tail()</i>
         
           .col-md-6
-            p Contenido de las primeras y últimas 5 filas del data frame.
+            h5
+              em Contenido de las primeras y últimas 5 filas del data frame
             figure
               img(src='@/assets/curso/temas/T4/img-17.png', alt='Texto que describa la imagen')
               
@@ -292,7 +297,8 @@
             p.mb-0 <i>Shape:  (3000, 9)</i>
         
           .col-md-6
-            p Muestra la dimensión y el nombre de las columnas del data frame.
+            h5
+              em Muestra la dimensión y el nombre de las columnas del data frame
             figure
               img(src='@/assets/curso/temas/T4/img-18.png', alt='Texto que describa la imagen')
 
@@ -304,7 +310,8 @@
             p.mb-3 Redondear la salida de los valores a 2 decimales.
         
           .col-md-6
-            p Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'.
+            h5
+              em Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'
             figure
               img(src='@/assets/curso/temas/T4/img-19.png', alt='Texto que describa la imagen')
     p.mb-5 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.

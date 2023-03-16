@@ -18,7 +18,11 @@
               p.mb-4 En las filas de una tabla de datos, se deben colocar observaciones o individuos y en las columnas, las variables (Martínez, 2019).
               p.mb-4 En la siguiente tabla, hay 5 observaciones iniciando en 1 y terminando en 5.
               p.mb-4 En las columnas se anotan las diferentes variables: edad, sexo, cabeza de hogar, caracterización ciudadana, estrato.
-
+      
+      .titulo-sexto.color-acento-contenido.mt-5
+        h5 Tabla 1
+        p.mb-0 
+          em Tabla de datos, variables (en las columnas) versus observaciones (en las filas)
 
       .tabla-a.color-acento-contenido.mb-5 
         table.tabla1
@@ -190,8 +194,9 @@
                 p.mb-3 Quedando las siguientes tablas, con una distribución de frecuencias por año:
           
       .titulo-sexto.color-acento-contenido.mt-5
+        h5 Tabla 2
         p.mb-0 
-          p.mb-1 <i> Año Vs. Frecuencia absoluta de beneficiarios del crédito de consumo</i>
+          em Año versus frecuencia absoluta de beneficiarios del crédito de consumo
 
       .tabla-a.color-acento-contenido.mb-5 
         table.tabla1
@@ -240,9 +245,9 @@
 
 
       .titulo-sexto.color-acento-contenido.mt-5
-        h5 Tabla 1
+        h5 Tabla 3
         p.mb-0 
-          p.mb-1 <i>Año vs frecuencia absoluta relativa de beneficiarios del crédito de consumo</i>
+          em Año versus frecuencia absoluta relativa de beneficiarios del crédito de consumo
 
       .tabla-a.color-acento-contenido.mb-5 
         table.tabla1
@@ -296,9 +301,9 @@
     p.mb-5 <b>Ejemplo:</b>
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Tabla 2
+      h5 Tabla 4
       p.mb-0
-        em Muestra intervalos vs frecuencia absoluta
+        em Muestra intervalos versus frecuencia absoluta
 
 
     .tabla-b.color-acento-contenido.mb-5
@@ -334,7 +339,7 @@
         
       .col-md-8
         p.mb-3 Se tienen las siguientes 12 notas calificadas del número 1 al 10 en una evaluación de matemáticas correspondiente a la primera evaluación, siendo 1 la menor y 10 la mayor. Se quieren agrupar por intervalos mediante 5 clases. Las 12 notas son:
-        p.mb-0 2, 3, 5, 6, 7, 8, 9, 3, 7, 9,1 0, 9
+        p.mb-0 2, 3, 5, 6, 7, 8, 9, 3, 7, 9, 10, 9
         p.mb-3 Este conjunto de datos se quiere agrupar en forma de intervalo.
         p.mb-3 Primero se extraerá el valor menor y el mayor. En este caso la estimación mínima es 2 y la máxima es 10, se calcula el tamaño del intervalo, posteriormente se mira cuantos datos caen en ese intervalo, generalmente no se trabajan con más de 10, se puede buscar que la longitud o amplitud del intervalo sea un número entero, aunque no es estricto, podría ser decimal.
 
@@ -353,7 +358,7 @@
             p.mb-3 La diferencia entre el valor máximo y mínimo es 8, por ende, valor máximo-valor mínimo = 8 
             p.mb-3 Para hallar la amplitud o longitud del intervalo el valor anterior, lo dividimos entre el número de clases que escogimos, en este caso 4.
             p.mb-3 Por lo tanto, seria 8 dividido en 4 resultando 2, entonces, la amplitud o longitud del intervalo = 2
-            p.mb-3 Se inicia con el valor mínimo y el intervalo cerrado a la izquierda y abierto a la derecha con una longitud de 2, es decir, [2,4) (ver tabla 3)
+            p.mb-3 Se inicia con el valor mínimo y el intervalo cerrado a la izquierda y abierto a la derecha con una longitud de 2, es decir, [2,4) (ver: intervalo vs frecuencia de notas)
         
       .py-3.py-md-4(titulo="<b>Datos que caben en el intervalo</b>")
         .row
@@ -362,7 +367,7 @@
             p.mb-3 La suma de las frecuencias debe ser igual al número total de notas en este caso 12.
 
           .row.justify-content-around.align-items-center.mb-3
-            .col-8
+            .col-lg-8.col-sm-12
               img(src='@/assets/curso/temas/T2/img-17.png', alt='Texto que describa la imagen')
 
           .col-sm.mb-5.mb-sm-0.align-items-center.mt-5

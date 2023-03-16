@@ -12,7 +12,7 @@
     .row
       .col-xl-8.mb-4
         .cajon-b.color-primario.abajo-derecha.p-3.mb-5
-          p.mb-0 Apreciado aprendiz, reciba una cordial bienvenida a este recurso de aprendizaje, orientado a la estadística descriptiva. Durante su desarrollo, se abordarán los principios básicos, la organización de datos y tipos de variables y, finalmente, la realización de informes estadísticos. Al finalizar, obtendrá los conocimientos para desenvolverse en el campo de la estadística descriptiva, específicamente será capaz de clasificar datos muestrales, elaborar tablas, crear gráficas y diseñar un informe. Antes de empezar el desarrollo del componente formativo, se sugiere revisar el siguiente video para que amplíe e identifique, el panorama de aprendizaje:
+          p.mb-0 Apreciado aprendiz, reciba una cordial bienvenida a este recurso de aprendizaje, orientado a la estadística descriptiva. Durante su desarrollo, se abordarán los principios básicos, la organización de datos y tipos de variables y, finalmente, la realización de informes estadísticos. Al finalizar, obtendrá los conocimientos para desenvolverse en el campo de la estadística descriptiva, específicamente será capaz de clasificar datos muestrales, elaborar tablas, crear gráficas y diseñar un informe. 
         p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
       .col-xl-3

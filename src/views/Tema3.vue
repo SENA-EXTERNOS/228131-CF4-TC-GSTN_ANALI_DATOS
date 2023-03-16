@@ -30,11 +30,12 @@
     h3.mb-3 Gráfico de histograma
     p.mb-3 Se representa en forma horizontal o vertical, también a manera de barras muestra el dato y las veces que se repite o su frecuencia.
 
-    p.mb-1 <i>Muestra un histograma cantidad de hombres versus cantidad de mujeres.</i>
-
-
     .row.justify-content-around.align-items-center.mb-3
-      .col-8
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 1
+          p.mb-0
+           em Muestra un histograma cantidad de hombres versus cantidad de mujeres
         img(src='@/assets/curso/temas/T3/img-3.png', alt='Texto que describa la imagen')
 
     h3.mb-3 Gráfico circular
@@ -42,12 +43,18 @@
 
     .row.mb-5.md-5
       .col-md-6.mb-5.mb-md-0
-        p.mb-3 Muestra un gráfico circular género versus monto del préstamo.
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 2
+            p.mb-0
+              em Muestra de gráfico circular: género versus monto del préstamo
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T3/img-4.png', alt='')
 
       .col-md-6
-        p.mb-3 Muestra un gráfico circular, el porcentaje por estratos, los cuales reciben el monto del préstamo.
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 3
+            p.mb-0
+              em Muestra un gráfico circular: el porcentaje por estratos, los cuales reciben el monto del préstamo
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T3/img-5.png', alt='')
 
@@ -60,61 +67,60 @@
     p.mb-5 A continuación, se presenta la muestra de un gráfico de cajas y bigotes, para la edad de las personas que reciben préstamo.        
     .row.mb-5.md-5
       .col-md-6.mb-5.mb-md-0
-        
-
-        
-        p Retomemos la muestra de un gráfico de cajas y bigotes, para la edad de las personas que reciben préstamo, vista anteriormente.
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 4
+            p.mb-0
+              em  Gráfico de cajas y bigotes para la edad de las personas que reciben préstamo
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/T3/img-6.png', alt='Texto que describa la imagen')
 
-          .tarjeta.faf.p-3(x="8%" y="50%" numero="P1")
+          .tarjeta.faf.p-3(x="8%" y="50%" numero="")
             p.texto-blanco Muestra el número 18. La edad mínima de las personas que reciben préstamo.
 
-          .tarjeta.faf.p-3(x="27%" y="63%" numero="P2")
+          .tarjeta.faf.p-3(x="27%" y="63%" numero="")
             p.texto-blanco Cuartil 1 (Q1 = 31) debajo de ese valor está el 25 % de la edad de las personas que reciben préstamo.
 
-          .tarjeta.faf.p-3(x="45%" y="13%" numero="P3")
+          .tarjeta.faf.p-3(x="45%" y="13%" numero="")
             p.texto-blanco Cuartil 2 (Q2 = 45). La mediana debajo de ese valor está el 50 % de la edad de las personas que reciben préstamo.
 
-          .tarjeta.faf.p-3(x="60%" y="63%" numero="P4")
+          .tarjeta.faf.p-3(x="60%" y="63%" numero="")
             p.texto-blanco Cuartil 3 (Q3 = 57). Debajo de ese valor está el 75 % de edad de las personas que reciben préstamo.
 
-          .tarjeta.faf.p-3(x="91%" y="50%" numero="P5")
+          .tarjeta.faf.p-3(x="91%" y="50%" numero="")
             p.texto-blanco Muestra el número 84. La edad máxima de las personas que reciben préstamo.
 
-
-
-
       .col-md-6
-        
-        p Gráfico de cajas y bigotes estrato versus edad de las personas que reciben crédito. 
-          
+
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 5
+            p.mb-0
+              em  Gráfico: Estrato versus edad           
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/T3/img-7.png', alt='Texto que describa la imagen')
 
-          .tarjeta.faf.p-3(x="24%" y="30%" numero="P1")
+          .tarjeta.faf.p-3(x="24%" y="30%" numero="")
             p.texto-blanco <b>Estrato 0</b>, 50 % tiene una edad entre 32 y 50 años.
 
-          .tarjeta.faf.p-3(x="33%" y="77%" numero="P2")
+          .tarjeta.faf.p-3(x="33%" y="77%" numero="")
             p.texto-blanco <b>Estrato 1</b>, 50 % tiene una edad entre 27 y 51 años.
 
-          .tarjeta.faf.p-3(x="43%" y="19%" numero="P3")
+          .tarjeta.faf.p-3(x="43%" y="19%" numero="")
             p.texto-blanco <b>Estrato 2</b>, 50 % tiene una edad entre 30 y 54 años.
 
-          .tarjeta.faf.p-3(x="52%" y="77%" numero="P4")
+          .tarjeta.faf.p-3(x="52%" y="77%" numero="")
             p.texto-blanco <b>Estrato 3</b>, 50% tiene la edad entre 35 y 63 años.
 
-          .tarjeta.faf.p-3(x="62%" y="25%" numero="P5")
+          .tarjeta.faf.p-3(x="62%" y="25%" numero="")
             p.texto-blanco <b>Estrato 4</b>, 50 % tiene una edad entre 28 y 54 años.
 
-          .tarjeta.faf.p-3(x="71%" y="75%" numero="P6")
+          .tarjeta.faf.p-3(x="71%" y="75%" numero="")
             p.texto-blanco <b>Estrato 5</b>, 50 % tiene una entre 27 y 46.5 años.
 
-          .tarjeta.faf.p-3(x="80%" y="45%" numero="P7")
+          .tarjeta.faf.p-3(x="80%" y="45%" numero="")
             p.texto-blanco <b>Estrato 6</b>, *Solo 2 personas tienen una edad de 24 y 49 años respectivamente.
 
 </template>
