@@ -312,8 +312,8 @@
       table.tabla1
  
         tr
-          th.h4.fae Intervalo
-          th.h4.fae Frecuencia
+          th.h4.fae.text-center Intervalo
+          th.h4.fae.text-center Frecuencia
         tr
           td [0,2)
           td 2
