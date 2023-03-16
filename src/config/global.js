@@ -106,7 +106,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Estadística descriptiva.',
+      tema: 'Estadística descriptiva',
       referencia:
         'Aguilar, J. (2021). <i>Estadística Descriptiva regresión y probabilidades con aplicaciones.</i> Ediciones de la U. ',
       tipo: 'Libro digital',
