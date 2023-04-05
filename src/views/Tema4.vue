@@ -156,7 +156,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/vBluABwrPF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-4 Para comprender fácilmente el video, específicamente el manejo de Google Colab y el documento Jupyter, Notebook con extensión ipynb, se recomienda descargar los 3 archivos adjuntos.
 
