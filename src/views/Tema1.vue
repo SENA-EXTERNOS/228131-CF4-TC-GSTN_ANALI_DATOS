@@ -21,9 +21,9 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             p.mb-5 Para entrar en materia se dará la explicación de los conceptos teóricos y prácticos referente a la estadística descriptiva (Martínez, 2019).
-            p.mb-3 El promedio o media <i><b>X̅X̅</b></i> se calcula sumando todos los datos y dividiendo entre el número total de los mismos.
+            p.mb-3 El promedio o media <i><b>X̅</b></i> se calcula sumando todos los datos y dividiendo entre el número total de los mismos.
             p.mb-3 El promedio se simboliza con la letra X y una barra lineal ━ encima de esa letra: X̅
-            p.mb-3 <i><b>X̅X̅</b></i> = promedio = media
+            p.mb-3 <i><b>X̅</b></i> = promedio = media
 
           .col-md-6
             figure
