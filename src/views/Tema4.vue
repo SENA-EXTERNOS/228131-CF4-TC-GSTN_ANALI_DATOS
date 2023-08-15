@@ -86,7 +86,7 @@
         
         .row
           .col-xl-8
-            p.mb-4 La población estudio se refiere a personas que obtuvieron créditos de consumo otorgados en Medellín por la Alcaldía, desde el año 2017 hasta el 2019 (en este caso análisis de tipo estadístico descriptivo), utilizando medidas de tendencia central como: la media, moda y desviación. Gráficos estadísticos: de cajas y bigotes, histograma, apilados. estáticos utilizando las librerías, Matplotlib, Seaborn, Vega-Altair, empleando Google Colab con el lenguaje Python y manejo de tablas de datos.
+            p.mb-4 La población de estudio se refiere a personas que obtuvieron créditos de consumo otorgados en Medellín por la Alcaldía, desde el año 2017 hasta el 2019 (en este caso análisis de tipo estadístico descriptivo), utilizando medidas de tendencia central como: la media, moda y desviación. Gráficos estadísticos: de cajas y bigotes, histograma, apilados, estáticos utilizando las librerías, Matplotlib, Seaborn, Vega-Altair, empleando Google Colab con el lenguaje Python y manejo de tablas de datos.
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/temas/T4/img-6.png', alt='Texto que describa la imagen')

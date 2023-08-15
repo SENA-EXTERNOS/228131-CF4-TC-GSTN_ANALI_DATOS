@@ -21,9 +21,9 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             p.mb-5 Para entrar en materia se dará la explicación de los conceptos teóricos y prácticos referente a la estadística descriptiva (Martínez, 2019).
-            p.mb-3 El promedio o media <i><b>XX</b></i> se calcula sumando todos los datos y dividiendo entre el número total de los mismos.
-            p.mb-3 El promedio se simboliza con la letra X y una barra lineal ━ encima de esa letra: X
-            p.mb-3 <i><b>XX</b></i> = promedio = media
+            p.mb-3 El promedio o media <i><b>X̅X̅</b></i> se calcula sumando todos los datos y dividiendo entre el número total de los mismos.
+            p.mb-3 El promedio se simboliza con la letra X y una barra lineal ━ encima de esa letra: X̅
+            p.mb-3 <i><b>X̅X̅</b></i> = promedio = media
 
           .col-md-6
             figure
@@ -32,7 +32,7 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             p.mb-2 <b>Ejemplo:</b>
-            p.mb-5 calcular el promedio de los siguientes valores: 3, 4, 5, 6, 3.
+            p.mb-5 Calcular el promedio de los siguientes valores: 3, 4, 5, 6, 3.
         
           
             figure
@@ -101,7 +101,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p.mb-3 En caso que el número de datos sea impar, se coloca la fórmula para la posición del cuartil en la secuencia ordenada:
+            p.mb-3 En caso de que el número de datos sea impar, se coloca la fórmula para la posición del cuartil en la secuencia ordenada:
             .row.mb-3
               .col-10
                 img(src='@/assets/curso/temas/T1/img-13.svg', alt='Texto que describa la imagen')
@@ -143,29 +143,29 @@
           .row(titulo="La posición 1.5")
             .col-md-10.mb-4.mb-md-0
               p.mb-0 La posición 1.5 se obtiene promediando el primer elemento y el segundo.
-              p El valor del Q<span class="exponentes">1</span> Q<span class="exponentes">1</span>   es:
+              p El valor del Q<span class="exponentes">1</span> es:
               .row.mb-3
                 .col-7
                   img(src='@/assets/curso/temas/T1/img-18.svg', alt='Texto que describa la imagen')
           
-          .row(titulo="La posición del Q2 Q2")
+          .row(titulo="La posición del Q2")
             .col-md-10.mb-4.mb-md-0
-              p La posición del  Q<span class="exponentes">2</span> Q<span class="exponentes">2</span> es
+              p La posición del  Q<span class="exponentes">2</span> es
               .row.mb-3
                 .col-7
                   img(src='@/assets/curso/temas/T1/img-19.svg', alt='Texto que describa la imagen')
 
           .row(titulo="El valor del cuartil 2")
             .col-md-7.mb-4.mb-md-0
-              p.mb-2 El valor del cuartil 2 Q<span class="exponentes">2</span> Q<span class="exponentes">2</span> es el elemento que está en la tercera posición de la secuencia
-              p.mb-2 El valor del Q<span class="exponentes">2</span> Q<span class="exponentes">2</span>: es Q<span class="exponentes">2</span> = 4 Q<span class="exponentes">2</span> = 4
-              p.mb-4 La posición del Q<span class="exponentes">3</span> Q<span class="exponentes">3</span>
+              p.mb-2 El valor del cuartil 2 Q<span class="exponentes">2</span> es el elemento que está en la tercera posición de la secuencia
+              p.mb-2 El valor del Q<span class="exponentes">2</span>: es Q<span class="exponentes">2</span> = 4
+              p.mb-4 La posición del Q<span class="exponentes">3</span>
           
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/T1/img-20.svg', alt='Texto que describa la imagen')
 
-          .row(titulo="El valor del Q3 Q3")
+          .row(titulo="El valor del Q3")
             .col-md-10.mb-4.mb-md-0
               p Es el promedio del elemento que está en la posición 4, con el que está en la posición 5. 
               .row.mb-3

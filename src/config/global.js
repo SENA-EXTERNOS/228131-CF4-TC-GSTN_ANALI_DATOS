@@ -191,7 +191,7 @@ export default {
     {
       termino: 'Escala nominal',
       significado:
-        'es la gama de medición en la cual los números sirven como “etiquetas” solamente para identificar o clasificar un objeto. normalmente trata solo con variables no numéricas (no cuantitativas).',
+        'es la gama de medición en la cual los números sirven como “etiquetas” solamente para identificar o clasificar un objeto. Normalmente trata solo con variables no numéricas (no cuantitativas).',
     },
     {
       termino: 'Escala ordinal',
