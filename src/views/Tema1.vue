@@ -135,7 +135,7 @@
           .row(titulo="Se ordena de menor a mayor ")
             .col-md-10.mb-4.mb-md-0
               p.mb-3 3, 3, 4, 5, 6 es impar N=5
-              p.mb-1 La posición del  Q<span class="exponentes">1</span> Q<span class="exponentes">1</span> es
+              p.mb-1 La posición del  Q<span class="exponentes">1</span> es
               .row.mb-3
                 .col-10
                   img(src='@/assets/curso/temas/T1/img-17.svg', alt='Texto que describa la imagen')
