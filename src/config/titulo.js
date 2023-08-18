@@ -1,1 +1,1 @@
-module.exports = 'Estadística descriptiva, gráficas e informe estadísticos'
+module.exports = 'Estadística descriptiva, gráficas e informes estadísticos'

@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Estadística descriptiva, gráficas e informe estadístico',
+      'Estadística descriptiva, gráficas e informes estadísticos',
     descripcionCurso:
       'En este componente, se manejan las bases de la estadística descriptiva, empleando conceptos fundamentales como el de promedio o media de un conjunto, para así tener la fundamentación teórica y la compresión del análisis estadístico, utilizando diferentes gráficas como: histogramas, gráfico circular, cajas y bigotes, de forma dinámica. Todo esto, presentado detalladamente con contraste y observación de datos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
