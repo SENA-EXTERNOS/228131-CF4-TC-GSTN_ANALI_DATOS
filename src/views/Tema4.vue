@@ -244,7 +244,7 @@
             h4.mb-3 DataFrame
             p.mb-3 Es una estructura de datos con dos dimensiones (filas y columnas), se puede guardar referencias de distintos tipos (caracteres, enteros, valores de punto flotante, etc.) en columnas. Es similar a una hoja de cálculo o una tabla de SQL.
             p.mb-3 Un archivo CSV (valores separados por comas) es un documento de texto con un formato específico que permite guardar los datos en una configuración de tabla estructurada.
-            p.mb-0 Un archivo CSV puede tener diferentes separadores diferentes de la coma (,) como: 
+            p.mb-0 Un archivo CSV puede tener separadores diferentes de la coma (,) como: 
             p.mb-3 punto y coma (;), barra espaciadora (/), guion del medio (-), guion de piso (_), etc.
 
         

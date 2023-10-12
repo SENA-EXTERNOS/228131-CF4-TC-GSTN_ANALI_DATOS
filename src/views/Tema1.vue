@@ -42,12 +42,13 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             p.mb-3 La desviación estándar mide qué tanto se alejan los datos del promedio, es decir, si hay mucha variación entre los datos. Si estos se alejan el valor de la desviación va a crecer, pero si se acercan va a disminuir.
-            p.mb-3 La desviación se simboliza con la letra griega sigma: σσ
+            p.mb-3 La desviación se simboliza con la letra griega sigma: σ
             p.mb-3 La desviación es la raíz cuadrada de la varianza:
             .row.mb-3
               .col-5
-                img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
-            p.mb-3 La varianza se simboliza con (σ)<span class="exponente">2</span> (σ)<span class="exponente">2</span> 
+                img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen', style='width: 50%;')
+
+            p.mb-3 La varianza se simboliza con (σ)<span class="exponente">2</span>
           .col-md-6
             figure
               img(src='@/assets/curso/temas/T1/img-4.svg', alt='Texto que describa la imagen')

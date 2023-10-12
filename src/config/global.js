@@ -167,7 +167,7 @@ export default {
     {
       termino: 'Cuartiles',
       significado:
-        'son 4 dividen un conjunto de datos ordenados en cuatro partes iguales. Cuartil 1 (Q1) 25 %, la mediana es el Cuartil 2 (Q2) 50 %,Cuartil 3 (Q3) 75 % Cuartil 4 (Q4) 100 %.Se trabaja principalmente con los Q1, Q2, Q3.',
+        'son 4, dividen un conjunto de datos ordenados en cuatro partes iguales. Cuartil 1 (Q1) 25 %, la mediana es el Cuartil 2 (Q2) 50 %, Cuartil 3 (Q3) 75 %, Cuartil 4 (Q4) 100 %. Se trabaja principalmente con los Q1, Q2, Q3.',
     },
     {
       termino: 'Dato atípico',

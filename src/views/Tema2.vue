@@ -286,7 +286,7 @@
               td.color-fila 
               td.color-fila 
 
-      p.mb-5 La tabla de datos está ordenada mediante filas y columnas; las primeras corresponden a la información ,en forma horizontal, de cada uno de los individuos. Las columnas, en forma vertical, hacen referencia a cada una de las variables de las reseñas consignadas. La idea fundamental es la de construir un tabloide y comparar, de forma fácil, las diversas características que tienen cada una de las variables de estudio, en el problema a resolver. Los datos pueden ser cualitativos o cuantitativos.	
+      p.mb-5 La tabla de datos está ordenada mediante filas y columnas; las primeras corresponden a la información, en forma horizontal, de cada uno de los individuos. Las columnas, en forma vertical, hacen referencia a cada una de las variables de las reseñas consignadas. La idea fundamental es la de construir un tabloide y comparar, de forma fácil, las diversas características que tienen cada una de las variables de estudio, en el problema a resolver. Los datos pueden ser cualitativos o cuantitativos.	
 
     .bloque-texto-a.fab.p-4.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.zoom-in
