@@ -228,7 +228,7 @@ export default {
     {
       referencia:
         'Metada Alcaldía de Medellín. (2022). <i>Créditos de consumo otorgados.</i>',
-      link: 'https://acortar.link/zGU2gK',
+      link: 'https://medata.gov.co/dataset/1-010-07-000102',
     },
     {
       referencia: 'Martínez, C. (2019). <i>Estadística y muestreo.</i>',

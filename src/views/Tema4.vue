@@ -203,19 +203,19 @@
            
     .tarjeta.fai.p-4.mb-5
       SlyderA(tipo="b")
-        .row.justify-content-between.align-items-center
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-between
+          .col-md-5.mb-4.mb-md-0
             p.mb-3 Jupyter notebook se puede utilizar localmente o en la nube con Google Colab. Para usarlo localmente debe tenerlo instalado en su computador.
             p.mb-3 Dentro de Google Colab se está en un entorno interactivo denominado notebook de Colab, que permite escribir y ejecutar código celda por celda o todo de una vez, se obtiene en la pestaña código.
             p.mb-3 Escribe en un lenguaje etiquetado especial llamado Markdown, se obtiene en la pestaña de nombre texto.
-          .col-md-6
+          .col-md-7
             h5
               em Pantalla de inicio de Google Colab
             figure
-              img(src='@/assets/curso/temas/T4/img-14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/1.png', alt='Texto que describa la imagen')
           
-        .row.justify-content-between.align-items-center
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-between
+          .col-md-5.mb-4.mb-md-0
             h4.mb-3 Instalar una librería o paquete
             p.mb-0 <b>Ejemplo:</b>
             p.mb-0 <i>pip install pandas</i>
@@ -233,14 +233,14 @@
 
 
         
-          .col-md-6
+          .col-md-7
             h5
               em Importar la librería math y utilizar la función potencia: pow()
             figure
-              img(src='@/assets/curso/temas/T4/img-15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/2.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-between.align-items-center
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-between
+          .col-md-5.mb-4.mb-md-0
             h4.mb-3 DataFrame
             p.mb-3 Es una estructura de datos con dos dimensiones (filas y columnas), se puede guardar referencias de distintos tipos (caracteres, enteros, valores de punto flotante, etc.) en columnas. Es similar a una hoja de cálculo o una tabla de SQL.
             p.mb-3 Un archivo CSV (valores separados por comas) es un documento de texto con un formato específico que permite guardar los datos en una configuración de tabla estructurada.
@@ -248,14 +248,14 @@
             p.mb-3 punto y coma (;), barra espaciadora (/), guion del medio (-), guion de piso (_), etc.
 
         
-          .col-md-6
+          .col-md-7
             h5
               em Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()
             figure
-              img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/3.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-between.align-items-center
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-between
+          .col-md-5.mb-4.mb-md-0
             h4.mb-3 Lectura de archivos CSV
             p.mb-3 Para leer en formato CSV se utiliza el comando pd.read_csv('nombre del archivo.csv'), pd es la abreviación de la librería pandas.
             p.mb-3 En la parte nombre del archivo se debe escribir la ruta o dirección donde está el archivo al final de esa ruta el nombre con extensión.csv
@@ -267,53 +267,53 @@
             p.mb-0 <i>data_frame= pd.read_csv('california_housing_test.csv')</i>
             p.mb-0 <i>data_frame</i>
         
-          .col-md-6
+          .col-md-7
             h5
               em Muestra la lectura y contenido del data frame utilizando el alias pd.read_csv()
             figure
-              img(src='@/assets/curso/temas/T4/img-16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/3.png', alt='Texto que describa la imagen')
           
-        .row.justify-content-between.align-items-center
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-between
+          .col-md-5.mb-4.mb-md-0
             h4.mb-5 Obtener determinado número de filas
             p.mb-0 Para obtener las primeras 5 filas de la data frame se escribe:
             p.mb-3 <i>data_frame.head(5)</i>
             p.mb-0 Para obtener las últimas 5 filas del data frame
             p.mb-3 <i>data_frame.tail()</i>
         
-          .col-md-6
+          .col-md-7
             h5
               em Contenido de las primeras y últimas 5 filas del data frame
             figure
-              img(src='@/assets/curso/temas/T4/img-17.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/4.png', alt='Texto que describa la imagen')
               
 
-        .row.justify-content-between.align-items-center
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-between
+          .col-md-5.mb-4.mb-md-0
             h4.mb-5 Visualizar dimensión
             p.mb-3 Para ver la dimensión (largo y ancho), filas y columnas también el nombre de las columnas, en este caso 3000 filas 9 columnas se utilizan los comandos:
             p.mb-0 <i>print("Dimensión: ", data_frame.shape)</i>
             p.mb-0 <i>print("Columnas: ", data_frame.columns)</i>
             p.mb-0 <i>Shape:  (3000, 9)</i>
         
-          .col-md-6
+          .col-md-7
             h5
               em Muestra la dimensión y el nombre de las columnas del data frame
             figure
-              img(src='@/assets/curso/temas/T4/img-18.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/5.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-between.align-items-center
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-between
+          .col-md-5.mb-4.mb-md-0
             p.mb-3 Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms', se escribe el nombre entre comillas sencillas o dobles.
             p.mb-3 <i>data_frame['total_rooms'].describe()</i>
             p.mb-4 También se puede: <i>data_frame["total_rooms"].describe()</i>
             p.mb-3 Redondear la salida de los valores a 2 decimales.
         
-          .col-md-6
+          .col-md-7
             h5
               em Información sobre los estadísticos descriptivos de la columna con nombre 'total_rooms'
             figure
-              img(src='@/assets/curso/temas/T4/img-19.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/6.png', alt='Texto que describa la imagen')
     p.mb-5 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
